@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="164.53mm"
+   height="83.840538mm"
+   viewBox="0 0 164.53 83.840538"
+   version="1.1"
+   id="svg292"
+   inkscape:version="1.1-dev (cc619caa, 2020-09-10)"
+   sodipodi:docname="logo-horiz.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs288" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="372.85714"
+     inkscape:cy="567.14286"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1252"
+     inkscape:window-height="687"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.6933295,1.8547927)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.74015;stroke-linecap:round;stroke-linejoin:round"
+       id="rect255"
+       width="80.100388"
+       height="160.78986"
+       x="-80.115669"
+       y="9.563406"
+       transform="rotate(-90)" />
+    <g
+       id="g313"
+       transform="translate(258.57763,-72.867637)">
+      <path
+         style="fill:none;stroke:#235b71;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -194.54947,85.27745 7.5345,13.45448 -43.05433,0.53817 21.52717,37.67255"
+         id="path257"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#dcab55;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -219.8439,137.48083 -16.97531,-29.06168 h 43.88427 l -15.60719,28.5235"
+         id="path259"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       id="g309"
+       transform="translate(290.32763,-120.49264)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:29.2921px;line-height:1.25;font-family:sans-serif;fill:#2c2c2c;fill-opacity:1;stroke:none;stroke-width:0.305126"
+         x="-210.3308"
+         y="168.56232"
+         id="text263"><tspan
+           sodipodi:role="line"
+           id="tspan261"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.2921px;font-family:Righteous;-inkscape-font-specification:'Righteous Bold';fill:#2c2c2c;fill-opacity:1;stroke-width:0.305126"
+           x="-210.3308"
+           y="168.56232">MyBill</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0846667px;word-spacing:0px;fill:#dcab52;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-208.45589"
+         y="182.95645"
+         id="text267"><tspan
+           sodipodi:role="line"
+           id="tspan265"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:Quicksand;-inkscape-font-specification:'Quicksand Medium';fill:#dcab52;fill-opacity:1;stroke-width:0.264583"
+           x="-208.45589"
+           y="182.95645"
+           dx="0">canasta de facturas</tspan></text>
+    </g>
+  </g>
+</svg>

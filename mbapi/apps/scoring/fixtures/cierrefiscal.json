@@ -1,0 +1,10 @@
+[
+{
+    "model": "scoring.cierrefiscal",
+    "pk": 1,
+    "fields": {
+        "pais": "Colombia",
+        "fecha": "12-31"
+    }
+}
+]

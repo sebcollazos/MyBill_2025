@@ -1,0 +1,82 @@
+[
+{
+    "model": "scoring.dolar",
+    "pk": 3,
+    "fields": {
+        "fecha": "2006-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 4,
+    "fields": {
+        "fecha": "2005-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 6,
+    "fields": {
+        "fecha": "2007-12-31",
+        "valor": 2000.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 7,
+    "fields": {
+        "fecha": "2020-04-01",
+        "valor": 4086.25
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 8,
+    "fields": {
+        "fecha": "2009-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 9,
+    "fields": {
+        "fecha": "2008-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 10,
+    "fields": {
+        "fecha": "2010-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 11,
+    "fields": {
+        "fecha": "2011-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 12,
+    "fields": {
+        "fecha": "2019-12-31",
+        "valor": 2567.0
+    }
+},
+{
+    "model": "scoring.dolar",
+    "pk": 13,
+    "fields": {
+        "fecha": "2018-12-31",
+        "valor": 2567.0
+    }
+}
+]

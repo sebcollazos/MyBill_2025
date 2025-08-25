@@ -1,0 +1,35 @@
+Estimados, a fecha 25 de Marzo
+
+
+Procesando la información de la super, encuentro estos valores Fila 5011 del archivo de la super:
+
+https://www.supersociedades.gov.co/delegatura_aec/Documents/2020/Pymes-Individuales.xlsx
+
+El total real, según lo expresa la columna AS -> "Pasivos corrientes totales" es 98504 sin embargo en el scoring aparece 100264 y mirando la diferencia son  1760 puesto que en las filas 12 y 13 del scoring aparece un valor repetido de 1760, es decir :
+
+12	Otros pasivos corrientes	1.760,00
+13	Beneficios a empleados		1.760,00
+
+siendo que estas columnas corresponden a las siguientes del excel:
+
+Otras provisiones corrientes				0
+Provisiones corrientes por beneficios a los empleados	1760
+
+
+... por consiguiente los totales de pasivos corrientes se alteran.
+
+Pueden consultarlo aquí: http://phzambranor.info/mybill/search.html
+Usando nombre: PACS
+.. y hacienda click en el botón EVALUAR RIESGO a la derecha,
+Nuevamente EVALUAR RIESGO para el período 2019-12-31 (en todo caso, creería que la columna quedó con ese problema en el resto de empresas también)
+
+
+
+
+Esto me indica que deberíamos procesar los archivos fuentes (en este caso de la supersociedades) adicionando durante el proceso unos cálculos de verificación para garantizar que los totales sean coherentes contablemente y no ir a calcular el scoring basado en datos que puedan, así sea en un porcentaje mínimo, presentar inconsistencias.
+
+Hablo de hacer operaciones ya sea durante el procesamiento o después de extraídos los valores de los estados financieros, no solamente totalizar valores sino compararlos, esto nos ayudaría a encontrar inconsistencias.
+
+Atte,
+
+Juan Luis

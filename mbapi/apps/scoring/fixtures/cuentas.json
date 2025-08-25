@@ -1,0 +1,317 @@
+[
+{
+    "model": "scoring.cuentas",
+    "pk": 1,
+    "fields": {
+        "variable": "1",
+        "indicador": "Efectivo y equivalentes al efectivo",
+        "tipo": "activos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 2,
+    "fields": {
+        "variable": "2",
+        "indicador": "Otros activos corrientes",
+        "tipo": "activos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 3,
+    "fields": {
+        "variable": "3",
+        "indicador": "Cuentas por cobrar comerciales y otras cuentas por cobrar (neto)\r\n",
+        "tipo": "activos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 4,
+    "fields": {
+        "variable": "4",
+        "indicador": "Inventarios (neto)",
+        "tipo": "activos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 5,
+    "fields": {
+        "variable": "5",
+        "indicador": "Propiedad, planta y equipo (neto)",
+        "tipo": "activos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 6,
+    "fields": {
+        "variable": "6",
+        "indicador": "Cuentas por cobrar comerciales y otras cuentas por cobrar (neto)",
+        "tipo": "activos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 7,
+    "fields": {
+        "variable": "7",
+        "indicador": "Propiedades de inversi&oacute;n",
+        "tipo": "activos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 8,
+    "fields": {
+        "variable": "8",
+        "indicador": "Otros activos",
+        "tipo": "activos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 9,
+    "fields": {
+        "variable": "9",
+        "indicador": "Activos por impuestos diferidos",
+        "tipo": "activos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 19,
+    "fields": {
+        "variable": "10",
+        "indicador": "Obligaciones financieras",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 20,
+    "fields": {
+        "variable": "11",
+        "indicador": "Cuentas por pagar comerciales",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 21,
+    "fields": {
+        "variable": "12",
+        "indicador": "Otros pasivos corrientes",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 25,
+    "fields": {
+        "variable": "13",
+        "indicador": "Beneficios a empleados\r\n",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 26,
+    "fields": {
+        "variable": "14",
+        "indicador": "Impuestos por pagar",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 27,
+    "fields": {
+        "variable": "15",
+        "indicador": "Otros pasivos no financieros",
+        "tipo": "pasivos corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 31,
+    "fields": {
+        "variable": "16",
+        "indicador": "Obligaciones financieras",
+        "tipo": "pasivos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 32,
+    "fields": {
+        "variable": "17",
+        "indicador": "Cuentas por pagar comerciales y otras cuentas por pagar",
+        "tipo": "pasivos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 33,
+    "fields": {
+        "variable": "18",
+        "indicador": "Pasivo por impuestos diferidos",
+        "tipo": "pasivos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 34,
+    "fields": {
+        "variable": "19",
+        "indicador": "Impuestos por pagar",
+        "tipo": "pasivos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 35,
+    "fields": {
+        "variable": "20",
+        "indicador": "Otros pasivos no corrientes",
+        "tipo": "pasivos no corrientes"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 36,
+    "fields": {
+        "variable": "21",
+        "indicador": "Capital pagado",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 37,
+    "fields": {
+        "variable": "22",
+        "indicador": "Prima en colocaci&oacute;n de acciones",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 38,
+    "fields": {
+        "variable": "23",
+        "indicador": "Reservas",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 39,
+    "fields": {
+        "variable": "24",
+        "indicador": "Resultados acumulados",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 40,
+    "fields": {
+        "variable": "25",
+        "indicador": "Resultado del ejercicio",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 41,
+    "fields": {
+        "variable": "26",
+        "indicador": "Otro resultado integral",
+        "tipo": "patrimonio"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 42,
+    "fields": {
+        "variable": "27",
+        "indicador": "Ingreso de actividades ordinarias",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 43,
+    "fields": {
+        "variable": "28",
+        "indicador": "Costo de ventas",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 44,
+    "fields": {
+        "variable": "29",
+        "indicador": "Gastos de administraci&oacute;n",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 45,
+    "fields": {
+        "variable": "30",
+        "indicador": "Gastos de ventas",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 46,
+    "fields": {
+        "variable": "31",
+        "indicador": "Gastos financieros",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 47,
+    "fields": {
+        "variable": "32",
+        "indicador": "Otros gastos",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 48,
+    "fields": {
+        "variable": "33",
+        "indicador": "Ingresos financieros",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 49,
+    "fields": {
+        "variable": "34",
+        "indicador": "Otros ingresos",
+        "tipo": "p&g"
+    }
+},
+{
+    "model": "scoring.cuentas",
+    "pk": 50,
+    "fields": {
+        "variable": "35",
+        "indicador": "Ingreso, gasto por impuestos (neto)",
+        "tipo": "p&g"
+    }
+}
+]

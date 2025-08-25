@@ -1,0 +1,46 @@
+from django.db import models
+
+
+class Info(models.Model):
+    empresa = models.TextField()
+    fecha = models.IntegerField()
+    periodo = models.TextField()
+    v1 = models.FloatField()
+    v2 = models.FloatField()
+    v3 = models.FloatField()
+    v4 = models.FloatField()
+    v5 = models.FloatField()
+    v6 = models.FloatField()
+    v7 = models.FloatField()
+    v8 = models.FloatField()
+    v9 = models.FloatField()
+    v10 = models.FloatField()
+    v11 = models.FloatField()
+    v12 = models.FloatField()
+    v13 = models.FloatField()
+    v14 = models.FloatField()
+    v15 = models.FloatField()
+    v16 = models.FloatField()
+    v17 = models.FloatField()
+    v18 = models.FloatField()
+    v19 = models.FloatField()
+    v20 = models.FloatField()
+    v21 = models.FloatField()
+    v22 = models.FloatField()
+    v23 = models.FloatField()
+    v24 = models.FloatField()
+    v25 = models.FloatField()
+    v26 = models.FloatField()
+    v27 = models.FloatField()
+    v28 = models.FloatField()
+    v29 = models.FloatField()
+    v30 = models.FloatField()
+    v31 = models.FloatField()
+    v32 = models.FloatField()
+    v33 = models.FloatField()
+    v34 = models.FloatField()
+    v35 = models.FloatField()
+
+    class Meta:
+        managed = False
+        db_table = 'info'

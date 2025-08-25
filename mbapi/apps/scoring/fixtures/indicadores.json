@@ -1,0 +1,16 @@
+[
+{
+    "model": "scoring.indicadores",
+    "pk": 1,
+    "fields": {
+        "resultadobruto": "$v[26]-$v[27]",
+        "resultadobruto1": "$va[26]-$va[27]",
+        "resultadoop": "$UtilidadBruta-$v[28]-$v[29]",
+        "resultadoop1": "$UtilidadBruta1-$va[28]-$va[29]",
+        "resultadoantesimp": "$UtilidadOperacional-$v[30]-$v[31]+$v[32]+$v[33]",
+        "resultadoantesimp1": "$UtilidadOperacional1-$va[30]-$va[31]+$va[32]+$va[33]",
+        "resultadoej": "$UtilidadOrdinaria-$v[34]",
+        "resultadoej1": "$UtilidadOrdinaria1-$va[34]"
+    }
+}
+]

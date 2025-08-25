@@ -1,0 +1,67 @@
+{
+    "all_files": [
+        {"template": "NIIF", "name": "Pymes-Individuales.xlsx" }
+    ],
+    "files": [
+        {"template": "NIIF", "name": "Plenas-Individuales.xlsx" },
+        {"template": "NIIF", "name": "Plenas-Separados.xlsx" },
+        {"template": "NIIF", "name": "Pymes-Individuales.xlsx" },
+        {"template": "NIIF", "name": "Pymes-Separados.xlsx" }
+    ],
+    "baseURL": "https://www.supersociedades.gov.co/delegatura_aec/Documents/2020/",
+    "ESF_NIIF": {
+        "units": "MILES",
+        "v1" : ["Efectivo y equivalentes al efectivo"],
+        "v2" : ["CALCULADA"],
+        "v3" : ["Cuentas comerciales por cobrar y otras cuentas por cobrar corrientes"],
+        "v4" : ["Inventarios corrientes"],
+        "tot_AC_CO" : ["Activos corrientes totales"],
+        "v5" : ["Propiedades, planta y equipo"],
+        "v6" : ["Cuentas comerciales por cobrar y otras cuentas por cobrar no corrientes"],
+        "v7" : ["Propiedad de inversión","Propiedades de inversión al costo menos depreciación acumulada y deterioro","Propiedades de inversión a valor razonable con cambios en resultados"],
+        "v8" : ["CALCULADA"],
+        "v9" : ["Cuentas comerciales por cobrar y otras cuentas por cobrar no corrientes"],
+        "tot_AC_NCO" : ["Total de activos no corrientes"],
+        "tot_ACTIVOS" : ["Total de activos"],
+        "v10" : ["Otros pasivos financieros corrientes"],
+        "v11" : ["Cuentas por pagar comerciales y otras cuentas por pagar"],
+        "v12" : ["Otras provisiones corrientes"],
+        "v13" : ["Provisiones corrientes por beneficios a los empleados"],
+        "v14" : ["Pasivos por impuestos corrientes, corriente"],
+        "v15" : ["CALCULADA"],
+        "tot_PS_CO" : ["Pasivos corrientes totales"],
+        "v16" : ["Otros pasivos financieros no corrientes"],
+        "v17" : ["Cuentas comerciales por pagar y otras cuentas por pagar no corrientes"],
+        "v18" : ["Pasivo por impuestos diferidos"],
+        "v19" : ["Pasivos por impuestos corrientes, no corriente"],
+        "v20" : ["CALCULADA"],
+        "tot_PS_NCO" : ["Total de pasivos no corrientes"],
+        "tot_PASIVOS" : ["Total pasivos"],
+        "v21" : ["Capital emitido"],
+        "v22" : ["Prima de emisión"],
+        "v23" : ["Otras reservas"],
+        "v24" : ["Ganancias acumuladas"],
+        "v25" : ["Resultado del Ejercicio"],
+        "v26" : ["CALCULADA"],
+        "tot_PATRIMONIO" : ["Patrimonio total"],
+        "tot_PASIVO_PATRIMONIO" : ["Total de patrimonio y pasivos"]
+    },
+    "ERI_NIIF": {
+        "units": "MILES",
+        "v27" : ["Ingresos de actividades ordinarias"],
+        "v28" : ["Costo de ventas"],
+        "tot_RES_BRUTO" : ["Ganancia bruta"],
+        "v29" : ["Gastos de administración"],
+        "v30" : ["Gastos de ventas", "Costos de distribución"],
+        "tot_RES_OPERACIONAL" : ["CALCULADA"],
+        "v31" : ["Costos financieros"],
+        "v32" : ["Otros gastos"],
+        "v33" : ["Ingresos financieros"],
+        "v34" : ["Otros ingresos"],
+        "tot_RES_ANTES_IMP" : ["Ganancia (pérdida), antes de impuestos"],
+        "v35" : ["Ingreso (gasto) por impuestos"],
+        "tot_RES_EJERCICIO" : ["Ganancia (pérdida)"]
+
+    }
+
+}

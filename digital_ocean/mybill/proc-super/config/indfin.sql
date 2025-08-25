@@ -1,0 +1,62 @@
+CREATE TABLE indfin AS
+select 
+    CARATULA.nit,  
+    CIIU.codigo, 
+    CIIU.riesgo,
+    ESF.periodo,
+    ESF.unidades,
+    ERI.v27 as ingr_op,
+    ROUND(CAST(ESF.tot_PATRIMONIO AS FLOAT)/ ESF.tot_ACTIVOS, 3) as solvencia,
+    ROUND(CAST(ESF.tot_AC_CO AS FLOAT) / ESF.tot_PS_CO, 3) as razon_cte,
+    ROUND((CAST(ESF.tot_AC_CO AS FLOAT) - CAST(ESF.v4 AS FLOAT))/ ESF.tot_PS_CO, 3)  as prueba_acida,
+    ESF.tot_AC_CO - ESF.tot_PS_CO as capital_trabajo,
+    ROUND(CAST(ERI.tot_RES_OPERACIONAL AS FLOAT) / ESF.tot_PATRIMONIO, 3) as ROE,
+    ROUND(CAST(100 * ERI.v31 AS FLOAT) / ERI.v27, 3) as fin_ventas,
+    ROUND(CAST(100 * (ESF.v10 + ESF.V16) AS FLOAT) / ESF.tot_PATRIMONIO, 3) as gearing,
+    ROUND(CAST(100 * ESF.v5 AS FLOAT) / ERI.v27, 3) as ap_act_ing,
+    ROUND(CAST(100 * ESF.v5 AS FLOAT) / ESF.tot_ACTIVOS, 3) as ap_act_tot,
+    ROUND(CAST(100*(ESF.v10 + ESF.V16) AS FLOAT) / ESF.tot_PASIVOS, 3) as end_fin,
+    ROUND(CAST(100 * ESF.tot_PASIVOS AS FLOAT) / ERI.v27, 3) as end_ventas,
+    ROUND(CAST(100 * ESF.tot_PS_CO AS FLOAT) / ESF.tot_PASIVOS, 3) as conc_CP,
+    ROUND(CAST(100 * ESF.tot_PASIVOS AS FLOAT) / ESF.tot_ACTIVOS, 3) as end_total,
+    ROUND(CAST(100 * ESF.v10 AS FLOAT) / ERI.v27, 3) as deuda_CP_ventas,
+    ROUND(CAST(100 * ERI.v31 AS FLOAT) / ERI.tot_RES_OPERACIONAL, 3) as gas_fin_uti_op,
+    ROUND(CAST(100 * (ESF.v10 + ESF.V16) AS FLOAT) / ESF.tot_PASIVO_PATRIMONIO, 3) as ap_bancario,
+    ROUND(CAST(100 * ERI.tot_RES_OPERACIONAL AS FLOAT) / ERI.v27, 3) as margen_op,
+    ROUND(CAST(100 * ERI.tot_RES_EJERCICIO AS FLOAT) / ERI.v27, 3) as margen_neto,
+    (360 * ESF.v4) / ERI.v28 as rot_inv,
+    (360 * ESF.v3) / ERI.v27 as rot_cart,
+    ((360 * ESF.v4) / ERI.v28) + ((360 * ESF.v3) / ERI.v27) as ciclo_op,
+    (360 * ESF.v11) / ERI.v28 as pago_prov,
+    ROUND(CAST(100 * ERI.tot_RES_OPERACIONAL AS FLOAT) / ERI.v27, 3) as renta_op
+from caratula
+    inner join ciiu on ciiu.codigo = caratula.ciiu 
+    inner join esf on esf.nit = caratula.nit
+    inner join eri on eri.nit = esf.nit and eri.periodo = esf.periodo
+
+--where caratula.nit = '802011502'
+--solvencia '$Patrimonio/($ActivosCorrientes+$ActivosNoCorrientes)', '$Patrimonio1/($ActivosCorrientes1+$ActivosNoCorrientes1)', 
+--razoncte '$ActivosCorrientes/$PasivosCorrientes', '$ActivosCorrientes1/$PasivosCorrientes1', 
+--pruebaacida '($ActivosCorrientes-$v[3])/$PasivosCorrientes', '($ActivosCorrientes1-$va[3])/$PasivosCorrientes1', 
+--captrabajo '$ActivosCorrientes-$PasivosCorrientes', '$ActivosCorrientes1-$PasivosCorrientes1', 
+--ROE '$UtilidadOperacional/$Patrimonio', '$UtilidadOperacional1/$Patrimonio1', 
+--finventas '100*$v[30]/$IngrOp', '100*$va[30]/$IngrOp1', 
+--gearing '100*($v[9]+$v[15])/$Patrimonio', '100*($va[9]+$va[15])/$Patrimonio1', 
+--apactivosing '100*($v[4])/$IngrOp', '100*($va[4])/$IngrOp1', 
+--apactivostotal '100*($v[4])/($ActivosCorrientes+$ActivosNoCorrientes)', '100*($va[4])/($ActivosCorrientes1+$ActivosNoCorrientes1)', 
+--endfin '100*($v[9]+$v[15])/($PasivosCorrientes+$PasivosNoCorrientes)', '100*($va[9]+$va[15])/($PasivosCorrientes1+$PasivosNoCorrientes1)', 
+--endventas '100*($PasivosCorrientes+$PasivosNoCorrientes)/$IngrOp', '100*($PasivosCorrientes1+$PasivosNoCorrientes1)/$IngrOp1', 
+--concCP '100*($PasivosCorrientes)/($PasivosCorrientes+$PasivosNoCorrientes)', '100*($PasivosCorrientes1)/($PasivosCorrientes1+$PasivosNoCorrientes1)', 
+--endtotal '100*($PasivosCorrientes+$PasivosNoCorrientes)/($ActivosCorrientes+$ActivosNoCorrientes)', 
+--deudaCPventas '100*$v[9]/$IngrOp', '100*$va[9]/$IngrOp1', 
+--gastosfinutop '100*$v[30]/$UtilidadOperacional', '100*$va[30]/$UtilidadOperacional1', 
+--apbancario '100*($v[9]+$v[15])/($Patrimonio+$PasivosCorrientes+$PasivosNoCorrientes)', '100*($va[9]+$va[15])/($Patrimonio1+$PasivosCorrientes1+$PasivosNoCorrientes1)', 
+--margenop '100*$UtilidadOperacional/$IngrOp', '100*$UtilidadOperacional1/$IngrOp1', 
+--margenneto '100*$UtilidadNeta/$IngrOp', '100*$UtilidadNeta1/$IngrOp1', 
+--rotinv '($v[3]*360)/$v[27]', '($va[3]*360)/$va[27]', 
+--rotcart '($v[2]*360)/$IngrOp', '($va[2]*360)/$IngrOp1', 
+--cicloop '$RotacionInv+$RotacionCartera', '$RotacionInv1+$RotacionCartera1', 
+--pagoprov '($v[10]*360)/$v[27]', '($va[10]*360)/$va[27]', 
+--rentabop '100*$UtilidadOperacional/$IngOp', 
+
+--'100*($PasivosCorrientes1+$PasivosNoCorrientes1)/($ActivosCorrientes1+$ActivosNoCorrientes1)');

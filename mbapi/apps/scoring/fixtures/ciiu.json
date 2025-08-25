@@ -1,0 +1,4493 @@
+[
+{
+    "model": "scoring.ciiu",
+    "pk": 2,
+    "fields": {
+        "ciiu": "111",
+        "sector": "Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 3,
+    "fields": {
+        "ciiu": "112",
+        "sector": "Cultivo de arroz",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 4,
+    "fields": {
+        "ciiu": "113",
+        "sector": "Cultivo de hortalizas, raíces y tubérculos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 5,
+    "fields": {
+        "ciiu": "114",
+        "sector": "Cultivo de tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 6,
+    "fields": {
+        "ciiu": "115",
+        "sector": "Cultivo de plantas textiles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 7,
+    "fields": {
+        "ciiu": "119",
+        "sector": "Otros cultivos transitorios n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 8,
+    "fields": {
+        "ciiu": "121",
+        "sector": "Cultivo de frutas tropicales y subtropicales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 9,
+    "fields": {
+        "ciiu": "122",
+        "sector": "Cultivo de plátano y banano",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 10,
+    "fields": {
+        "ciiu": "123",
+        "sector": "Cultivo de café",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 11,
+    "fields": {
+        "ciiu": "124",
+        "sector": "Cultivo de caña de azúcar",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 12,
+    "fields": {
+        "ciiu": "125",
+        "sector": "Cultivo de flor de corte",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 13,
+    "fields": {
+        "ciiu": "126",
+        "sector": "Cultivo de palma para aceite (palma africana) y otros frutos oleaginosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 14,
+    "fields": {
+        "ciiu": "127",
+        "sector": "Cultivo de plantas con las que se preparan bebidas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 15,
+    "fields": {
+        "ciiu": "128",
+        "sector": "Cultivo de especias y de plantas aromáticas y medicinales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 16,
+    "fields": {
+        "ciiu": "129",
+        "sector": "Otros cultivos permanentes n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 17,
+    "fields": {
+        "ciiu": "130",
+        "sector": "Propagación de plantas (actividades de los viveros, excepto viveros forestales)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 18,
+    "fields": {
+        "ciiu": "141",
+        "sector": "Cría de ganado bovino y bufalino",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 19,
+    "fields": {
+        "ciiu": "142",
+        "sector": "Cría de caballos y otros equinos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 20,
+    "fields": {
+        "ciiu": "143",
+        "sector": "Cría de ovejas y cabras",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 21,
+    "fields": {
+        "ciiu": "144",
+        "sector": "Cría de ganado porcino",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 22,
+    "fields": {
+        "ciiu": "145",
+        "sector": "Cría de aves de corral",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 23,
+    "fields": {
+        "ciiu": "149",
+        "sector": "Cría de otros animales n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 24,
+    "fields": {
+        "ciiu": "150",
+        "sector": "Explotación mixta (agrícola y pecuaria)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 25,
+    "fields": {
+        "ciiu": "161",
+        "sector": "Actividades de apoyo a la agricultura",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 26,
+    "fields": {
+        "ciiu": "162",
+        "sector": "Actividades de apoyo a la ganadería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 27,
+    "fields": {
+        "ciiu": "163",
+        "sector": "Actividades posteriores a la cosecha",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 28,
+    "fields": {
+        "ciiu": "164",
+        "sector": "Tratamiento de semillas para propagación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 29,
+    "fields": {
+        "ciiu": "170",
+        "sector": "Caza ordinaria y mediante trampas y actividades de servicios conexas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 30,
+    "fields": {
+        "ciiu": "210",
+        "sector": "Silvicultura y otras actividades forestales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 31,
+    "fields": {
+        "ciiu": "220",
+        "sector": "Extracción de madera",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 32,
+    "fields": {
+        "ciiu": "230",
+        "sector": "Recolección de productos forestales diferentes a la madera",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 33,
+    "fields": {
+        "ciiu": "240",
+        "sector": "Servicios de apoyo a la silvicultura",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 34,
+    "fields": {
+        "ciiu": "311",
+        "sector": "Pesca marítima",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 35,
+    "fields": {
+        "ciiu": "312",
+        "sector": "Pesca de agua dulce",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 36,
+    "fields": {
+        "ciiu": "321",
+        "sector": "Acuicultura marítima",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 37,
+    "fields": {
+        "ciiu": "322",
+        "sector": "Acuicultura de agua dulce",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 38,
+    "fields": {
+        "ciiu": "510",
+        "sector": "Extracción de hulla (carbón de piedra)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 39,
+    "fields": {
+        "ciiu": "520",
+        "sector": "Extracción de carbón lignito",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 40,
+    "fields": {
+        "ciiu": "610",
+        "sector": "Extracción de petróleo crudo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 41,
+    "fields": {
+        "ciiu": "620",
+        "sector": "Extracción de gas natural",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 42,
+    "fields": {
+        "ciiu": "710",
+        "sector": "Extracción de minerales de hierro",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 43,
+    "fields": {
+        "ciiu": "721",
+        "sector": "Extracción de minerales de uranio y de torio",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 44,
+    "fields": {
+        "ciiu": "722",
+        "sector": "Extracción de oro y otros metales preciosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 45,
+    "fields": {
+        "ciiu": "723",
+        "sector": "Extracción de minerales de níquel",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 46,
+    "fields": {
+        "ciiu": "729",
+        "sector": "Extracción de otros minerales metalíferos no ferrosos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 47,
+    "fields": {
+        "ciiu": "811",
+        "sector": "Extracción de piedra, arena, arcillas comunes, yeso y anhidrita",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 48,
+    "fields": {
+        "ciiu": "812",
+        "sector": "Extracción de arcillas de uso industrial, caliza, caolín y bentonitas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 49,
+    "fields": {
+        "ciiu": "820",
+        "sector": "Extracción de esmeraldas, piedras preciosas y semipreciosas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 50,
+    "fields": {
+        "ciiu": "891",
+        "sector": "Extracción de minerales para la fabricación de abonos y productos químicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 51,
+    "fields": {
+        "ciiu": "892",
+        "sector": "Extracción de halita (sal)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 52,
+    "fields": {
+        "ciiu": "899",
+        "sector": "Extracción de otros minerales no metálicos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 53,
+    "fields": {
+        "ciiu": "910",
+        "sector": "Actividades de apoyo para la extracción de petróleo y de gas natural",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 54,
+    "fields": {
+        "ciiu": "990",
+        "sector": "Actividades de apoyo para otras actividades de explotación de minas y canteras",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 55,
+    "fields": {
+        "ciiu": "1011",
+        "sector": "Procesamiento y conservación de carne y productos cárnicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 56,
+    "fields": {
+        "ciiu": "1012",
+        "sector": "Procesamiento y conservación de pescados, crustáceos y moluscos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 57,
+    "fields": {
+        "ciiu": "1020",
+        "sector": "Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 58,
+    "fields": {
+        "ciiu": "1030",
+        "sector": "Elaboración de aceites y grasas de origen vegetal y animal",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 59,
+    "fields": {
+        "ciiu": "1040",
+        "sector": "Elaboración de productos lácteos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 60,
+    "fields": {
+        "ciiu": "1051",
+        "sector": "Elaboración de productos de molinería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 61,
+    "fields": {
+        "ciiu": "1052",
+        "sector": "Elaboración de almidones y productos derivados del almidón",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 62,
+    "fields": {
+        "ciiu": "1061",
+        "sector": "Trilla de café",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 63,
+    "fields": {
+        "ciiu": "1062",
+        "sector": "Descafeinado, tostión y molienda del café",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 64,
+    "fields": {
+        "ciiu": "1063",
+        "sector": "Otros derivados del café",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 65,
+    "fields": {
+        "ciiu": "1071",
+        "sector": "Elaboración y refinación de azúcar",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 66,
+    "fields": {
+        "ciiu": "1072",
+        "sector": "Elaboración de panela",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 67,
+    "fields": {
+        "ciiu": "1081",
+        "sector": "Elaboración de productos de panadería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 68,
+    "fields": {
+        "ciiu": "1082",
+        "sector": "Elaboración de cacao, chocolate y productos de confitería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 69,
+    "fields": {
+        "ciiu": "1083",
+        "sector": "Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 70,
+    "fields": {
+        "ciiu": "1084",
+        "sector": "Elaboración de comidas y platos preparados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 71,
+    "fields": {
+        "ciiu": "1089",
+        "sector": "Elaboración de otros productos alimenticios n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 72,
+    "fields": {
+        "ciiu": "1090",
+        "sector": "Elaboración de alimentos preparados para animales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 73,
+    "fields": {
+        "ciiu": "1101",
+        "sector": "Destilación, rectificación y mezcla de bebidas alcohólicas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 74,
+    "fields": {
+        "ciiu": "1102",
+        "sector": "Elaboración de bebidas fermentadas no destiladas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 75,
+    "fields": {
+        "ciiu": "1103",
+        "sector": "Producción de malta, elaboración de cervezas y otras bebidas malteadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 76,
+    "fields": {
+        "ciiu": "1104",
+        "sector": "Elaboración de bebidas no alcohólicas, producción de aguas minerales y de otras aguas embotelladas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 77,
+    "fields": {
+        "ciiu": "1200",
+        "sector": "Elaboración de productos de tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 78,
+    "fields": {
+        "ciiu": "1311",
+        "sector": "Preparación e hilatura de fibras textiles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 79,
+    "fields": {
+        "ciiu": "1312",
+        "sector": "Tejeduría de productos textiles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 80,
+    "fields": {
+        "ciiu": "1313",
+        "sector": "Acabado de productos textiles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 81,
+    "fields": {
+        "ciiu": "1391",
+        "sector": "Fabricación de tejidos de punto y ganchillo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 82,
+    "fields": {
+        "ciiu": "1392",
+        "sector": "Confección de artículos con materiales textiles, excepto prendas de vestir",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 83,
+    "fields": {
+        "ciiu": "1393",
+        "sector": "Fabricación de tapetes y alfombras para pisos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 84,
+    "fields": {
+        "ciiu": "1394",
+        "sector": "Fabricación de cuerdas, cordeles, cables, bramantes y redes",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 85,
+    "fields": {
+        "ciiu": "1399",
+        "sector": "Fabricación de otros artículos textiles n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 86,
+    "fields": {
+        "ciiu": "1410",
+        "sector": "Confección de prendas de vestir, excepto prendas de piel",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 87,
+    "fields": {
+        "ciiu": "1420",
+        "sector": "Fabricación de artículos de piel",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 88,
+    "fields": {
+        "ciiu": "1430",
+        "sector": "Fabricación de artículos de punto y ganchillo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 89,
+    "fields": {
+        "ciiu": "1511",
+        "sector": "Curtido y recurtido de cueros; recurtido y teñido de pieles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 90,
+    "fields": {
+        "ciiu": "1512",
+        "sector": "Fabricación de artículos de viaje, bolsos de mano y artículos similares elaborados en cuero, y fabricación de artículos de talabartería y guarnicionería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 91,
+    "fields": {
+        "ciiu": "1513",
+        "sector": "Fabricación de artículos de viaje, bolsos de mano y artículos similares; artículos de talabartería y guarnicionería elaborados en otros materiales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 92,
+    "fields": {
+        "ciiu": "1521",
+        "sector": "Fabricación de calzado de cuero y piel, con cualquier tipo de suela",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 93,
+    "fields": {
+        "ciiu": "1522",
+        "sector": "Fabricación de otros tipos de calzado, excepto calzado de cuero y piel",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 94,
+    "fields": {
+        "ciiu": "1523",
+        "sector": "Fabricación de partes del calzado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 95,
+    "fields": {
+        "ciiu": "1610",
+        "sector": "Aserrado, acepillado e impregnación de la madera",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 96,
+    "fields": {
+        "ciiu": "1620",
+        "sector": "Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros laminados, tableros de partículas y otros tableros y paneles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 97,
+    "fields": {
+        "ciiu": "1630",
+        "sector": "Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 98,
+    "fields": {
+        "ciiu": "1640",
+        "sector": "Fabricación de recipientes de madera",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 99,
+    "fields": {
+        "ciiu": "1690",
+        "sector": "Fabricación de otros productos de madera; fabricación de artículos de corcho, cestería y espartería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 100,
+    "fields": {
+        "ciiu": "1701",
+        "sector": "Fabricación de pulpas (pastas) celulósicas; papel y cartón",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 101,
+    "fields": {
+        "ciiu": "1702",
+        "sector": "Fabricación de papel y cartón ondulado (corrugado); fabricación de envases, empaques y de embalajes de papel y cartón.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 102,
+    "fields": {
+        "ciiu": "1709",
+        "sector": "Fabricación de otros artículos de papel y cartón",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 103,
+    "fields": {
+        "ciiu": "1811",
+        "sector": "Actividades de impresión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 104,
+    "fields": {
+        "ciiu": "1812",
+        "sector": "Actividades de servicios relacionados con la impresión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 105,
+    "fields": {
+        "ciiu": "1820",
+        "sector": "Producción de copias a partir de grabaciones originales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 106,
+    "fields": {
+        "ciiu": "1910",
+        "sector": "Fabricación de productos de hornos de coque",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 107,
+    "fields": {
+        "ciiu": "1921",
+        "sector": "Fabricación de productos de la refinación del petróleo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 108,
+    "fields": {
+        "ciiu": "1922",
+        "sector": "Actividad de mezcla de combustibles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 109,
+    "fields": {
+        "ciiu": "2011",
+        "sector": "Fabricación de sustancias y productos químicos básicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 110,
+    "fields": {
+        "ciiu": "2012",
+        "sector": "Fabricación de abonos y compuestos inorgánicos nitrogenados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 111,
+    "fields": {
+        "ciiu": "2013",
+        "sector": "Fabricación de plásticos en formas primarias",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 112,
+    "fields": {
+        "ciiu": "2014",
+        "sector": "Fabricación de caucho sintético en formas primarias",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 113,
+    "fields": {
+        "ciiu": "2021",
+        "sector": "Fabricación de plaguicidas y otros productos químicos de uso agropecuario",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 114,
+    "fields": {
+        "ciiu": "2022",
+        "sector": "Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 115,
+    "fields": {
+        "ciiu": "2023",
+        "sector": "Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 116,
+    "fields": {
+        "ciiu": "2029",
+        "sector": "Fabricación de otros productos químicos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 117,
+    "fields": {
+        "ciiu": "2030",
+        "sector": "Fabricación de fibras sintéticas y artificiales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 118,
+    "fields": {
+        "ciiu": "2100",
+        "sector": "Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 119,
+    "fields": {
+        "ciiu": "2211",
+        "sector": "Fabricación de llantas y neumáticos de caucho",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 120,
+    "fields": {
+        "ciiu": "2212",
+        "sector": "Reencauche de llantas usadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 121,
+    "fields": {
+        "ciiu": "2219",
+        "sector": "Fabricación de formas básicas de caucho y otros productos de caucho n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 122,
+    "fields": {
+        "ciiu": "2221",
+        "sector": "Fabricación de formas básicas de plástico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 123,
+    "fields": {
+        "ciiu": "2229",
+        "sector": "Fabricación de artículos de plástico n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 124,
+    "fields": {
+        "ciiu": "2310",
+        "sector": "Fabricación de vidrio y productos de vidrio",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 125,
+    "fields": {
+        "ciiu": "2391",
+        "sector": "Fabricación de productos refractarios",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 126,
+    "fields": {
+        "ciiu": "2392",
+        "sector": "Fabricación de materiales de arcilla para la construcción",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 127,
+    "fields": {
+        "ciiu": "2393",
+        "sector": "Fabricación de otros productos de cerámica y porcelana",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 128,
+    "fields": {
+        "ciiu": "2394",
+        "sector": "Fabricación de cemento, cal y yeso",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 129,
+    "fields": {
+        "ciiu": "2395",
+        "sector": "Fabricación de artículos de hormigón, cemento y yeso",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 130,
+    "fields": {
+        "ciiu": "2396",
+        "sector": "Corte, tallado y acabado de la piedra",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 131,
+    "fields": {
+        "ciiu": "2399",
+        "sector": "Fabricación de otros productos minerales no metálicos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 132,
+    "fields": {
+        "ciiu": "2410",
+        "sector": "Industrias básicas de hierro y de acero",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 133,
+    "fields": {
+        "ciiu": "2421",
+        "sector": "Industrias básicas de metales preciosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 134,
+    "fields": {
+        "ciiu": "2429",
+        "sector": "Industrias básicas de otros metales no ferrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 135,
+    "fields": {
+        "ciiu": "2431",
+        "sector": "Fundición de hierro y de acero",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 136,
+    "fields": {
+        "ciiu": "2432",
+        "sector": "Fundición de metales no ferrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 137,
+    "fields": {
+        "ciiu": "2511",
+        "sector": "Fabricación de productos metálicos para uso estructural",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 138,
+    "fields": {
+        "ciiu": "2512",
+        "sector": "Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para el envase o transporte de mercancías",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 139,
+    "fields": {
+        "ciiu": "2513",
+        "sector": "Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 140,
+    "fields": {
+        "ciiu": "2520",
+        "sector": "Fabricación de armas y municiones",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 141,
+    "fields": {
+        "ciiu": "2591",
+        "sector": "Forja, prensado, estampado y laminado de metal; pulvimetalurgia",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 142,
+    "fields": {
+        "ciiu": "2592",
+        "sector": "Tratamiento y revestimiento de metales; mecanizado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 143,
+    "fields": {
+        "ciiu": "2593",
+        "sector": "Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 144,
+    "fields": {
+        "ciiu": "2599",
+        "sector": "Fabricación de otros productos elaborados de metal n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 145,
+    "fields": {
+        "ciiu": "2610",
+        "sector": "Fabricación de componentes y tableros electrónicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 146,
+    "fields": {
+        "ciiu": "2620",
+        "sector": "Fabricación de computadoras y de equipo periférico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 147,
+    "fields": {
+        "ciiu": "2630",
+        "sector": "Fabricación de equipos de comunicación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 148,
+    "fields": {
+        "ciiu": "2640",
+        "sector": "Fabricación de aparatos electrónicos de consumo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 149,
+    "fields": {
+        "ciiu": "2651",
+        "sector": "Fabricación de equipo de medición, prueba, navegación y control",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 150,
+    "fields": {
+        "ciiu": "2652",
+        "sector": "Fabricación de relojes",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 151,
+    "fields": {
+        "ciiu": "2660",
+        "sector": "Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 152,
+    "fields": {
+        "ciiu": "2670",
+        "sector": "Fabricación de instrumentos ópticos y equipo fotográfico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 153,
+    "fields": {
+        "ciiu": "2680",
+        "sector": "Fabricación de medios magnéticos y ópticos para almacenamiento de datos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 154,
+    "fields": {
+        "ciiu": "2711",
+        "sector": "Fabricación de motores, generadores y transformadores eléctricos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 155,
+    "fields": {
+        "ciiu": "2712",
+        "sector": "Fabricación de aparatos de distribución y control de la energía eléctrica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 156,
+    "fields": {
+        "ciiu": "2720",
+        "sector": "Fabricación de pilas, baterías y acumuladores eléctricos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 157,
+    "fields": {
+        "ciiu": "2731",
+        "sector": "Fabricación de hilos y cables eléctricos y de fibra óptica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 158,
+    "fields": {
+        "ciiu": "2732",
+        "sector": "Fabricación de dispositivos de cableado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 159,
+    "fields": {
+        "ciiu": "2740",
+        "sector": "Fabricación de equipos eléctricos de iluminación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 160,
+    "fields": {
+        "ciiu": "2750",
+        "sector": "Fabricación de aparatos de uso doméstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 161,
+    "fields": {
+        "ciiu": "2790",
+        "sector": "Fabricación de otros tipos de equipo eléctrico n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 162,
+    "fields": {
+        "ciiu": "2811",
+        "sector": "Fabricación de motores, turbinas, y partes para motores de combustión interna",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 163,
+    "fields": {
+        "ciiu": "2812",
+        "sector": "Fabricación de equipos de potencia hidráulica y neumática",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 164,
+    "fields": {
+        "ciiu": "2813",
+        "sector": "Fabricación de otras bombas, compresores, grifos y válvulas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 165,
+    "fields": {
+        "ciiu": "2814",
+        "sector": "Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 166,
+    "fields": {
+        "ciiu": "2815",
+        "sector": "Fabricación de hornos, hogares y quemadores industriales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 167,
+    "fields": {
+        "ciiu": "2816",
+        "sector": "Fabricación de equipo de elevación y manipulación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 168,
+    "fields": {
+        "ciiu": "2817",
+        "sector": "Fabricación de maquinaria y equipo de oficina (excepto computadoras y equipo periférico)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 169,
+    "fields": {
+        "ciiu": "2818",
+        "sector": "Fabricación de herramientas manuales con motor",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 170,
+    "fields": {
+        "ciiu": "2819",
+        "sector": "Fabricación de otros tipos de maquinaria y equipo de uso general n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 171,
+    "fields": {
+        "ciiu": "2821",
+        "sector": "Fabricación de maquinaria agropecuaria y forestal",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 172,
+    "fields": {
+        "ciiu": "2822",
+        "sector": "Fabricación de máquinas formadoras de metal y de máquinas herramienta",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 173,
+    "fields": {
+        "ciiu": "2823",
+        "sector": "Fabricación de maquinaria para la metalurgia",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 174,
+    "fields": {
+        "ciiu": "2824",
+        "sector": "Fabricación de maquinaria para explotación de minas y canteras y para obras de construcción",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 175,
+    "fields": {
+        "ciiu": "2825",
+        "sector": "Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 176,
+    "fields": {
+        "ciiu": "2826",
+        "sector": "Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 177,
+    "fields": {
+        "ciiu": "2829",
+        "sector": "Fabricación de otros tipos de maquinaria y equipo de uso especial n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 178,
+    "fields": {
+        "ciiu": "2910",
+        "sector": "Fabricación de vehículos automotores y sus motores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 179,
+    "fields": {
+        "ciiu": "2920",
+        "sector": "Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 180,
+    "fields": {
+        "ciiu": "2930",
+        "sector": "Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 181,
+    "fields": {
+        "ciiu": "3011",
+        "sector": "Construcción de barcos y de estructuras flotantes",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 182,
+    "fields": {
+        "ciiu": "3012",
+        "sector": "Construcción de embarcaciones de recreo y deporte",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 183,
+    "fields": {
+        "ciiu": "3020",
+        "sector": "Fabricación de locomotoras y de material rodante para ferrocarriles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 184,
+    "fields": {
+        "ciiu": "3030",
+        "sector": "Fabricación de aeronaves, naves espaciales y de maquinaria conexa",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 185,
+    "fields": {
+        "ciiu": "3040",
+        "sector": "Fabricación de vehículos militares de combate",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 186,
+    "fields": {
+        "ciiu": "3091",
+        "sector": "Fabricación de motocicletas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 187,
+    "fields": {
+        "ciiu": "3092",
+        "sector": "Fabricación de bicicletas y de sillas de ruedas para personas con discapacidad",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 188,
+    "fields": {
+        "ciiu": "3099",
+        "sector": "Fabricación de otros tipos de equipo de transporte n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 189,
+    "fields": {
+        "ciiu": "3110",
+        "sector": "Fabricación de muebles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 190,
+    "fields": {
+        "ciiu": "3120",
+        "sector": "Fabricación de colchones y somieres",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 191,
+    "fields": {
+        "ciiu": "3210",
+        "sector": "Fabricación de joyas, bisutería y artículos conexos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 192,
+    "fields": {
+        "ciiu": "3220",
+        "sector": "Fabricación de instrumentos musicales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 193,
+    "fields": {
+        "ciiu": "3230",
+        "sector": "Fabricación de artículos y equipo para la práctica del deporte",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 194,
+    "fields": {
+        "ciiu": "3240",
+        "sector": "Fabricación de juegos, juguetes y rompecabezas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 195,
+    "fields": {
+        "ciiu": "3250",
+        "sector": "Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 196,
+    "fields": {
+        "ciiu": "3290",
+        "sector": "Otras industrias manufactureras n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 197,
+    "fields": {
+        "ciiu": "3311",
+        "sector": "Mantenimiento y reparación especializado de productos elaborados en metal",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 198,
+    "fields": {
+        "ciiu": "3312",
+        "sector": "Mantenimiento y reparación especializado de maquinaria y equipo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 199,
+    "fields": {
+        "ciiu": "3313",
+        "sector": "Mantenimiento y reparación especializado de equipo electrónico y óptico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 200,
+    "fields": {
+        "ciiu": "3314",
+        "sector": "Mantenimiento y reparación especializado de equipo eléctrico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 201,
+    "fields": {
+        "ciiu": "3315",
+        "sector": "Mantenimiento y reparación especializado de equipo de transporte, excepto los vehículos automotores, motocicletas y bicicletas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 202,
+    "fields": {
+        "ciiu": "3319",
+        "sector": "Mantenimiento y reparación de otros tipos de equipos y sus componentes n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 203,
+    "fields": {
+        "ciiu": "3320",
+        "sector": "Instalación especializada de maquinaria y equipo industrial",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 204,
+    "fields": {
+        "ciiu": "3511",
+        "sector": "Generación de energía eléctrica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 205,
+    "fields": {
+        "ciiu": "3512",
+        "sector": "Transmisión de energía eléctrica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 206,
+    "fields": {
+        "ciiu": "3513",
+        "sector": "Distribución de energía eléctrica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 207,
+    "fields": {
+        "ciiu": "3514",
+        "sector": "Comercialización de energía eléctrica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 208,
+    "fields": {
+        "ciiu": "3520",
+        "sector": "Producción de gas; distribución de combustibles gaseosos por tuberías",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 209,
+    "fields": {
+        "ciiu": "3530",
+        "sector": "Suministro de vapor y aire acondicionado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 210,
+    "fields": {
+        "ciiu": "3600",
+        "sector": "Captación, tratamiento y distribución de agua",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 211,
+    "fields": {
+        "ciiu": "3700",
+        "sector": "Evacuación y tratamiento de aguas residuales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 212,
+    "fields": {
+        "ciiu": "3811",
+        "sector": "Recolección de desechos no peligrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 213,
+    "fields": {
+        "ciiu": "3812",
+        "sector": "Recolección de desechos peligrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 214,
+    "fields": {
+        "ciiu": "3821",
+        "sector": "Tratamiento y disposición de desechos no peligrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 215,
+    "fields": {
+        "ciiu": "3822",
+        "sector": "Tratamiento y disposición de desechos peligrosos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 216,
+    "fields": {
+        "ciiu": "3830",
+        "sector": "Recuperación de materiales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 217,
+    "fields": {
+        "ciiu": "3900",
+        "sector": "Actividades de saneamiento ambiental y otros servicios de gestión de desechos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 218,
+    "fields": {
+        "ciiu": "4111",
+        "sector": "Construcción de edificios residenciales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 219,
+    "fields": {
+        "ciiu": "4112",
+        "sector": "Construcción de edificios no residenciales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 220,
+    "fields": {
+        "ciiu": "4210",
+        "sector": "Construcción de carreteras y vías de ferrocarril",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 221,
+    "fields": {
+        "ciiu": "4220",
+        "sector": "Construcción de proyectos de servicio público",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 222,
+    "fields": {
+        "ciiu": "4290",
+        "sector": "Construcción de otras obras de ingeniería civil",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 223,
+    "fields": {
+        "ciiu": "4311",
+        "sector": "Demolición",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 224,
+    "fields": {
+        "ciiu": "4312",
+        "sector": "Preparación del terreno",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 225,
+    "fields": {
+        "ciiu": "4321",
+        "sector": "Instalaciones eléctricas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 226,
+    "fields": {
+        "ciiu": "4322",
+        "sector": "Instalaciones de fontanería, calefacción y aire acondicionado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 227,
+    "fields": {
+        "ciiu": "4329",
+        "sector": "Otras instalaciones especializadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 228,
+    "fields": {
+        "ciiu": "4330",
+        "sector": "Terminación y acabado de edificios y obras de ingeniería civil",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 229,
+    "fields": {
+        "ciiu": "4390",
+        "sector": "Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 230,
+    "fields": {
+        "ciiu": "4511",
+        "sector": "Comercio de vehículos automotores nuevos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 231,
+    "fields": {
+        "ciiu": "4512",
+        "sector": "Comercio de vehículos automotores usados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 232,
+    "fields": {
+        "ciiu": "4520",
+        "sector": "Mantenimiento y reparación de vehículos automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 233,
+    "fields": {
+        "ciiu": "4530",
+        "sector": "Comercio de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 234,
+    "fields": {
+        "ciiu": "4541",
+        "sector": "Comercio de motocicletas y de sus partes, piezas y accesorios",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 235,
+    "fields": {
+        "ciiu": "4542",
+        "sector": "Mantenimiento y reparación de motocicletas y de sus partes y piezas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 236,
+    "fields": {
+        "ciiu": "4610",
+        "sector": "Comercio al por mayor a cambio de una retribución o por contrata",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 237,
+    "fields": {
+        "ciiu": "4620",
+        "sector": "Comercio al por mayor de materias primas agropecuarias; animales vivos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 238,
+    "fields": {
+        "ciiu": "4631",
+        "sector": "Comercio al por mayor de productos alimenticios",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 239,
+    "fields": {
+        "ciiu": "4632",
+        "sector": "Comercio al por mayor de bebidas y tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 240,
+    "fields": {
+        "ciiu": "4641",
+        "sector": "Comercio al por mayor de productos textiles, productos confeccionados para uso doméstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 241,
+    "fields": {
+        "ciiu": "4642",
+        "sector": "Comercio al por mayor de prendas de vestir",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 242,
+    "fields": {
+        "ciiu": "4643",
+        "sector": "Comercio al por mayor de calzado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 243,
+    "fields": {
+        "ciiu": "4644",
+        "sector": "Comercio al por mayor de aparatos y equipo de uso doméstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 244,
+    "fields": {
+        "ciiu": "4645",
+        "sector": "Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 245,
+    "fields": {
+        "ciiu": "4649",
+        "sector": "Comercio al por mayor de otros utensilios domésticos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 246,
+    "fields": {
+        "ciiu": "4651",
+        "sector": "Comercio al por mayor de computadores, equipo periférico y programas de informática",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 247,
+    "fields": {
+        "ciiu": "4652",
+        "sector": "Comercio al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 248,
+    "fields": {
+        "ciiu": "4653",
+        "sector": "Comercio al por mayor de maquinaria y equipo agropecuarios",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 249,
+    "fields": {
+        "ciiu": "4659",
+        "sector": "Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 250,
+    "fields": {
+        "ciiu": "4661",
+        "sector": "Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 251,
+    "fields": {
+        "ciiu": "4662",
+        "sector": "Comercio al por mayor de metales y productos metalíferos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 252,
+    "fields": {
+        "ciiu": "4663",
+        "sector": "Comercio al por mayor de materiales de construcción, artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 253,
+    "fields": {
+        "ciiu": "4664",
+        "sector": "Comercio al por mayor de productos químicos básicos, cauchos y plásticos en formas primarias y productos químicos de uso agropecuario",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 254,
+    "fields": {
+        "ciiu": "4665",
+        "sector": "Comercio al por mayor de desperdicios, desechos y chatarra",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 255,
+    "fields": {
+        "ciiu": "4669",
+        "sector": "Comercio al por mayor de otros productos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 256,
+    "fields": {
+        "ciiu": "4690",
+        "sector": "Comercio al por mayor no especializado",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 257,
+    "fields": {
+        "ciiu": "4711",
+        "sector": "Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 258,
+    "fields": {
+        "ciiu": "4719",
+        "sector": "Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 259,
+    "fields": {
+        "ciiu": "4721",
+        "sector": "Comercio al por menor de productos agrícolas para el consumo en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 260,
+    "fields": {
+        "ciiu": "4722",
+        "sector": "Comercio al por menor de leche, productos lácteos y huevos, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 261,
+    "fields": {
+        "ciiu": "4723",
+        "sector": "Comercio al por menor de carnes (incluye aves de corral), productos cárnicos, pescados y productos de mar, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 262,
+    "fields": {
+        "ciiu": "4724",
+        "sector": "Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 263,
+    "fields": {
+        "ciiu": "4729",
+        "sector": "Comercio al por menor de otros productos alimenticios n.c.p., en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 264,
+    "fields": {
+        "ciiu": "4731",
+        "sector": "Comercio al por menor de combustible para automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 265,
+    "fields": {
+        "ciiu": "4732",
+        "sector": "Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 266,
+    "fields": {
+        "ciiu": "4741",
+        "sector": "Comercio al por menor de computadores, equipos periféricos, programas de informática y equipos de telecomunicaciones en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 267,
+    "fields": {
+        "ciiu": "4742",
+        "sector": "Comercio al por menor de equipos y aparatos de sonido y de video, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 268,
+    "fields": {
+        "ciiu": "4751",
+        "sector": "Comercio al por menor de productos textiles en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 269,
+    "fields": {
+        "ciiu": "4752",
+        "sector": "Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 270,
+    "fields": {
+        "ciiu": "4753",
+        "sector": "Comercio al por menor de tapices, alfombras y cubrimientos para paredes y pisos en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 271,
+    "fields": {
+        "ciiu": "4754",
+        "sector": "Comercio al por menor de electrodomésticos y gasodomésticos de uso doméstico, muebles y equipos de iluminación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 272,
+    "fields": {
+        "ciiu": "4755",
+        "sector": "Comercio al por menor de artículos y utensilios de uso doméstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 273,
+    "fields": {
+        "ciiu": "4759",
+        "sector": "Comercio al por menor de otros artículos domésticos en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 274,
+    "fields": {
+        "ciiu": "4761",
+        "sector": "Comercio al por menor de libros, periódicos, materiales y artículos de papelería y escritorio, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 275,
+    "fields": {
+        "ciiu": "4762",
+        "sector": "Comercio al por menor de artículos deportivos, en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 276,
+    "fields": {
+        "ciiu": "4769",
+        "sector": "Comercio al por menor de otros artículos culturales y de entretenimiento n.c.p. en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 277,
+    "fields": {
+        "ciiu": "4771",
+        "sector": "Comercio al por menor de prendas de vestir y sus accesorios (incluye artículos de piel) en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 278,
+    "fields": {
+        "ciiu": "4772",
+        "sector": "Comercio al por menor de todo tipo de calzado y artículos de cuero y sucedáneos del cuero en establecimientos especializados.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 279,
+    "fields": {
+        "ciiu": "4773",
+        "sector": "Comercio al por menor de productos farmacéuticos y medicinales, cosméticos y artículos de tocador en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 280,
+    "fields": {
+        "ciiu": "4774",
+        "sector": "Comercio al por menor de otros productos nuevos en establecimientos especializados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 281,
+    "fields": {
+        "ciiu": "4775",
+        "sector": "Comercio al por menor de artículos de segunda mano",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 282,
+    "fields": {
+        "ciiu": "4781",
+        "sector": "Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 283,
+    "fields": {
+        "ciiu": "4782",
+        "sector": "Comercio al por menor de productos textiles, prendas de vestir y calzado, en puestos de venta móviles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 284,
+    "fields": {
+        "ciiu": "4789",
+        "sector": "Comercio al por menor de otros productos en puestos de venta móviles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 285,
+    "fields": {
+        "ciiu": "4791",
+        "sector": "Comercio al por menor realizado a través de Internet",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 286,
+    "fields": {
+        "ciiu": "4792",
+        "sector": "Comercio al por menor realizado a través de casas de venta o por correo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 287,
+    "fields": {
+        "ciiu": "4799",
+        "sector": "Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o mercados.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 288,
+    "fields": {
+        "ciiu": "4911",
+        "sector": "Transporte férreo de pasajeros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 289,
+    "fields": {
+        "ciiu": "4912",
+        "sector": "Transporte férreo de carga",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 290,
+    "fields": {
+        "ciiu": "4921",
+        "sector": "Transporte de pasajeros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 291,
+    "fields": {
+        "ciiu": "4922",
+        "sector": "Transporte mixto",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 292,
+    "fields": {
+        "ciiu": "4923",
+        "sector": "Transporte de carga por carretera",
+        "bloqueado": 1
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 293,
+    "fields": {
+        "ciiu": "4930",
+        "sector": "Transporte por tuberías",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 294,
+    "fields": {
+        "ciiu": "5011",
+        "sector": "Transporte de pasajeros marítimo y de cabotaje",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 295,
+    "fields": {
+        "ciiu": "5012",
+        "sector": "Transporte de carga marítimo y de cabotaje",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 296,
+    "fields": {
+        "ciiu": "5021",
+        "sector": "Transporte fluvial de pasajeros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 297,
+    "fields": {
+        "ciiu": "5022",
+        "sector": "Transporte fluvial de carga",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 298,
+    "fields": {
+        "ciiu": "5111",
+        "sector": "Transporte aéreo nacional de pasajeros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 299,
+    "fields": {
+        "ciiu": "5112",
+        "sector": "Transporte aéreo internacional de pasajeros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 300,
+    "fields": {
+        "ciiu": "5121",
+        "sector": "Transporte aéreo nacional de carga",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 301,
+    "fields": {
+        "ciiu": "5122",
+        "sector": "Transporte aéreo internacional de carga",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 302,
+    "fields": {
+        "ciiu": "5210",
+        "sector": "Almacenamiento y depósito",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 303,
+    "fields": {
+        "ciiu": "5221",
+        "sector": "Actividades de estaciones, vías y servicios complementarios para el transporte terrestre",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 304,
+    "fields": {
+        "ciiu": "5222",
+        "sector": "Actividades de puertos y servicios complementarios para el transporte acuático",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 305,
+    "fields": {
+        "ciiu": "5223",
+        "sector": "Actividades de aeropuertos, servicios de navegación aérea y demás actividades conexas al transporte aéreo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 306,
+    "fields": {
+        "ciiu": "5224",
+        "sector": "Manipulación de carga",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 307,
+    "fields": {
+        "ciiu": "5229",
+        "sector": "Otras actividades complementarias al transporte",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 308,
+    "fields": {
+        "ciiu": "5310",
+        "sector": "Actividades postales nacionales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 309,
+    "fields": {
+        "ciiu": "5320",
+        "sector": "Actividades de mensajería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 310,
+    "fields": {
+        "ciiu": "5511",
+        "sector": "Alojamiento en hoteles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 311,
+    "fields": {
+        "ciiu": "5512",
+        "sector": "Alojamiento en apartahoteles",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 312,
+    "fields": {
+        "ciiu": "5513",
+        "sector": "Alojamiento en centros vacacionales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 313,
+    "fields": {
+        "ciiu": "5514",
+        "sector": "Alojamiento rural",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 314,
+    "fields": {
+        "ciiu": "5519",
+        "sector": "Otros tipos de alojamientos para visitantes",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 315,
+    "fields": {
+        "ciiu": "5520",
+        "sector": "Actividades de zonas de camping y parques para vehículos recreacionales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 316,
+    "fields": {
+        "ciiu": "5530",
+        "sector": "Servicio por horas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 317,
+    "fields": {
+        "ciiu": "5590",
+        "sector": "Otros tipos de alojamiento n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 318,
+    "fields": {
+        "ciiu": "5611",
+        "sector": "Expendio a la mesa de comidas preparadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 319,
+    "fields": {
+        "ciiu": "5612",
+        "sector": "Expendio por autoservicio de comidas preparadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 320,
+    "fields": {
+        "ciiu": "5613",
+        "sector": "Expendio de comidas preparadas en cafeterías",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 321,
+    "fields": {
+        "ciiu": "5619",
+        "sector": "Otros tipos de expendio de comidas preparadas n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 322,
+    "fields": {
+        "ciiu": "5621",
+        "sector": "Catering para eventos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 323,
+    "fields": {
+        "ciiu": "5629",
+        "sector": "Actividades de otros servicios de comidas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 324,
+    "fields": {
+        "ciiu": "5630",
+        "sector": "Expendio de bebidas alcohólicas para el consumo dentro del establecimiento",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 325,
+    "fields": {
+        "ciiu": "5811",
+        "sector": "Edición de libros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 326,
+    "fields": {
+        "ciiu": "5812",
+        "sector": "Edición de directorios y listas de correo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 327,
+    "fields": {
+        "ciiu": "5813",
+        "sector": "Edición de periódicos, revistas y otras publicaciones periódicas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 328,
+    "fields": {
+        "ciiu": "5819",
+        "sector": "Otros trabajos de edición",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 329,
+    "fields": {
+        "ciiu": "5820",
+        "sector": "Edición de programas de informática (software)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 330,
+    "fields": {
+        "ciiu": "5911",
+        "sector": "Actividades de producción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 331,
+    "fields": {
+        "ciiu": "5912",
+        "sector": "Actividades de posproducción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 332,
+    "fields": {
+        "ciiu": "5913",
+        "sector": "Actividades de distribución de películas cinematográficas, videos, programas, anuncios y comerciales de televisión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 333,
+    "fields": {
+        "ciiu": "5914",
+        "sector": "Actividades de exhibición de películas cinematográficas y videos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 334,
+    "fields": {
+        "ciiu": "5920",
+        "sector": "Actividades de grabación de sonido y edición de música",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 335,
+    "fields": {
+        "ciiu": "6010",
+        "sector": "Actividades de programación y transmisión en el servicio de radiodifusión sonora",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 336,
+    "fields": {
+        "ciiu": "6020",
+        "sector": "Actividades de programación y transmisión de televisión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 337,
+    "fields": {
+        "ciiu": "6110",
+        "sector": "Actividades de telecomunicaciones alámbricas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 338,
+    "fields": {
+        "ciiu": "6120",
+        "sector": "Actividades de telecomunicaciones inalámbricas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 339,
+    "fields": {
+        "ciiu": "6130",
+        "sector": "Actividades de telecomunicación satelital",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 340,
+    "fields": {
+        "ciiu": "6190",
+        "sector": "Otras actividades de telecomunicaciones",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 341,
+    "fields": {
+        "ciiu": "6201",
+        "sector": "Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 342,
+    "fields": {
+        "ciiu": "6202",
+        "sector": "Actividades de consultoría informática y actividades de administración de instalaciones informáticas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 343,
+    "fields": {
+        "ciiu": "6209",
+        "sector": "Otras actividades de tecnologías de información y actividades de servicios informáticos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 344,
+    "fields": {
+        "ciiu": "6311",
+        "sector": "Procesamiento de datos, alojamiento (hosting) y actividades relacionadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 345,
+    "fields": {
+        "ciiu": "6312",
+        "sector": "Portales web",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 346,
+    "fields": {
+        "ciiu": "6391",
+        "sector": "Actividades de agencias de noticias",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 347,
+    "fields": {
+        "ciiu": "6399",
+        "sector": "Otras actividades de servicio de información n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 348,
+    "fields": {
+        "ciiu": "6411",
+        "sector": "Banco Central",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 349,
+    "fields": {
+        "ciiu": "6412",
+        "sector": "Bancos comerciales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 350,
+    "fields": {
+        "ciiu": "6421",
+        "sector": "Actividades de las corporaciones financieras",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 351,
+    "fields": {
+        "ciiu": "6422",
+        "sector": "Actividades de las compañías de financiamiento",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 352,
+    "fields": {
+        "ciiu": "6423",
+        "sector": "Banca de segundo piso",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 353,
+    "fields": {
+        "ciiu": "6424",
+        "sector": "Actividades de las cooperativas financieras",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 354,
+    "fields": {
+        "ciiu": "6431",
+        "sector": "Fideicomisos, fondos y entidades financieras similares",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 355,
+    "fields": {
+        "ciiu": "6432",
+        "sector": "Fondos de cesantías",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 356,
+    "fields": {
+        "ciiu": "6491",
+        "sector": "Leasing financiero (arrendamiento financiero)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 357,
+    "fields": {
+        "ciiu": "6492",
+        "sector": "Actividades financieras de fondos de empleados y otras formas asociativas del sector solidario",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 358,
+    "fields": {
+        "ciiu": "6493",
+        "sector": "Actividades de compra de cartera o factoring",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 359,
+    "fields": {
+        "ciiu": "6494",
+        "sector": "Otras actividades de distribución de fondos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 360,
+    "fields": {
+        "ciiu": "6495",
+        "sector": "Instituciones especiales oficiales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 361,
+    "fields": {
+        "ciiu": "6499",
+        "sector": "Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 362,
+    "fields": {
+        "ciiu": "6511",
+        "sector": "Seguros generales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 363,
+    "fields": {
+        "ciiu": "6512",
+        "sector": "Seguros de vida",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 364,
+    "fields": {
+        "ciiu": "6513",
+        "sector": "Reaseguros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 365,
+    "fields": {
+        "ciiu": "6514",
+        "sector": "Capitalización",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 366,
+    "fields": {
+        "ciiu": "6521",
+        "sector": "Servicios de seguros sociales de salud",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 367,
+    "fields": {
+        "ciiu": "6522",
+        "sector": "Servicios de seguros sociales de riesgos profesionales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 368,
+    "fields": {
+        "ciiu": "6531",
+        "sector": "Régimen de prima media con prestación definida (RPM)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 369,
+    "fields": {
+        "ciiu": "6532",
+        "sector": "Régimen de ahorro individual (RAI)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 370,
+    "fields": {
+        "ciiu": "6611",
+        "sector": "Administración de mercados financieros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 371,
+    "fields": {
+        "ciiu": "6612",
+        "sector": "Corretaje de valores y de contratos de productos básicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 372,
+    "fields": {
+        "ciiu": "6613",
+        "sector": "Otras actividades relacionadas con el mercado de valores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 373,
+    "fields": {
+        "ciiu": "6614",
+        "sector": "Actividades de las casas de cambio",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 374,
+    "fields": {
+        "ciiu": "6615",
+        "sector": "Actividades de los profesionales de compra y venta de divisas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 375,
+    "fields": {
+        "ciiu": "6619",
+        "sector": "Otras actividades auxiliares de las actividades de servicios financieros n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 376,
+    "fields": {
+        "ciiu": "6621",
+        "sector": "Actividades de agentes y corredores de seguros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 377,
+    "fields": {
+        "ciiu": "6629",
+        "sector": "Evaluación de riesgos y daños, y otras actividades de servicios auxiliares",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 378,
+    "fields": {
+        "ciiu": "6630",
+        "sector": "Actividades de administración de fondos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 379,
+    "fields": {
+        "ciiu": "6810",
+        "sector": "Actividades inmobiliarias realizadas con bienes propios o arrendados",
+        "bloqueado": 1
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 380,
+    "fields": {
+        "ciiu": "6820",
+        "sector": "Actividades inmobiliarias realizadas a cambio de una retribución o por contrata",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 381,
+    "fields": {
+        "ciiu": "6910",
+        "sector": "Actividades jurídicas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 382,
+    "fields": {
+        "ciiu": "6920",
+        "sector": "Actividades de contabilidad, teneduría de libros, auditoría financiera y asesoría tributaria",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 383,
+    "fields": {
+        "ciiu": "7010",
+        "sector": "Actividades de administración empresarial",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 384,
+    "fields": {
+        "ciiu": "7020",
+        "sector": "Actividades de consultaría de gestión",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 385,
+    "fields": {
+        "ciiu": "7110",
+        "sector": "Actividades de arquitectura e ingeniería y otras actividades conexas de consultoría técnica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 386,
+    "fields": {
+        "ciiu": "7120",
+        "sector": "Ensayos y análisis técnicos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 387,
+    "fields": {
+        "ciiu": "7210",
+        "sector": "Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 388,
+    "fields": {
+        "ciiu": "7220",
+        "sector": "Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 389,
+    "fields": {
+        "ciiu": "7310",
+        "sector": "Publicidad",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 390,
+    "fields": {
+        "ciiu": "7320",
+        "sector": "Estudios de mercado y realización de encuestas de opinión pública",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 391,
+    "fields": {
+        "ciiu": "7410",
+        "sector": "Actividades especializadas de diseño",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 392,
+    "fields": {
+        "ciiu": "7420",
+        "sector": "Actividades de fotografía",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 393,
+    "fields": {
+        "ciiu": "7490",
+        "sector": "Otras actividades profesionales, científicas y técnicas n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 394,
+    "fields": {
+        "ciiu": "7500",
+        "sector": "Actividades veterinarias",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 395,
+    "fields": {
+        "ciiu": "7710",
+        "sector": "Alquiler y arrendamiento de vehículos automotores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 396,
+    "fields": {
+        "ciiu": "7721",
+        "sector": "Alquiler y arrendamiento de equipo recreativo y deportivo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 397,
+    "fields": {
+        "ciiu": "7722",
+        "sector": "Alquiler de videos y discos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 398,
+    "fields": {
+        "ciiu": "7729",
+        "sector": "Alquiler y arrendamiento de otros efectos personales y enseres domésticos n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 399,
+    "fields": {
+        "ciiu": "7730",
+        "sector": "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 400,
+    "fields": {
+        "ciiu": "7740",
+        "sector": "Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 401,
+    "fields": {
+        "ciiu": "7810",
+        "sector": "Actividades de agencias de empleo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 402,
+    "fields": {
+        "ciiu": "7820",
+        "sector": "Actividades de agencias de empleo temporal",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 403,
+    "fields": {
+        "ciiu": "7830",
+        "sector": "Otras actividades de suministro de recurso humano",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 404,
+    "fields": {
+        "ciiu": "7911",
+        "sector": "Actividades de las agencias de viaje",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 405,
+    "fields": {
+        "ciiu": "7912",
+        "sector": "Actividades de operadores turísticos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 406,
+    "fields": {
+        "ciiu": "7990",
+        "sector": "Otros servicios de reserva y actividades relacionadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 407,
+    "fields": {
+        "ciiu": "8010",
+        "sector": "Actividades de seguridad privada",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 408,
+    "fields": {
+        "ciiu": "8020",
+        "sector": "Actividades de servicios de sistemas de seguridad",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 409,
+    "fields": {
+        "ciiu": "8030",
+        "sector": "Actividades de detectives e investigadores privados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 410,
+    "fields": {
+        "ciiu": "8110",
+        "sector": "Actividades combinadas de apoyo a instalaciones",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 411,
+    "fields": {
+        "ciiu": "8121",
+        "sector": "Limpieza general interior de edificios",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 412,
+    "fields": {
+        "ciiu": "8129",
+        "sector": "Otras actividades de limpieza de edificios e instalaciones industriales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 413,
+    "fields": {
+        "ciiu": "8130",
+        "sector": "Actividades de paisajismo y servicios de mantenimiento conexos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 414,
+    "fields": {
+        "ciiu": "8211",
+        "sector": "Actividades combinadas de servicios administrativos de oficina",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 415,
+    "fields": {
+        "ciiu": "8219",
+        "sector": "Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo a oficina",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 416,
+    "fields": {
+        "ciiu": "8220",
+        "sector": "Actividades de centros de llamadas (Call center)",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 417,
+    "fields": {
+        "ciiu": "8230",
+        "sector": "Organización de convenciones y eventos comerciales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 418,
+    "fields": {
+        "ciiu": "8291",
+        "sector": "Actividades de agencias de cobranza y oficinas de calificación crediticia",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 419,
+    "fields": {
+        "ciiu": "8292",
+        "sector": "Actividades de envase y empaque",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 420,
+    "fields": {
+        "ciiu": "8299",
+        "sector": "Otras actividades de servicio de apoyo a las empresas n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 421,
+    "fields": {
+        "ciiu": "8411",
+        "sector": "Actividades legislativas de la administración pública",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 422,
+    "fields": {
+        "ciiu": "8412",
+        "sector": "Actividades ejecutivas de la administración pública",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 423,
+    "fields": {
+        "ciiu": "8413",
+        "sector": "Regulación de las actividades de organismos que prestan servicios de salud, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 424,
+    "fields": {
+        "ciiu": "8414",
+        "sector": "Actividades reguladoras y facilitadoras de la actividad económica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 425,
+    "fields": {
+        "ciiu": "8415",
+        "sector": "Actividades de los otros órganos de control",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 426,
+    "fields": {
+        "ciiu": "8421",
+        "sector": "Relaciones exteriores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 427,
+    "fields": {
+        "ciiu": "8422",
+        "sector": "Actividades de defensa",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 428,
+    "fields": {
+        "ciiu": "8423",
+        "sector": "Orden público y actividades de seguridad",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 429,
+    "fields": {
+        "ciiu": "8424",
+        "sector": "Administración de justicia",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 430,
+    "fields": {
+        "ciiu": "8430",
+        "sector": "Actividades de planes de seguridad social de afiliación obligatoria",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 431,
+    "fields": {
+        "ciiu": "8511",
+        "sector": "Educación de la primera infancia",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 432,
+    "fields": {
+        "ciiu": "8512",
+        "sector": "Educación preescolar",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 433,
+    "fields": {
+        "ciiu": "8513",
+        "sector": "Educación básica primaria",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 434,
+    "fields": {
+        "ciiu": "8521",
+        "sector": "Educación básica secundaria",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 435,
+    "fields": {
+        "ciiu": "8522",
+        "sector": "Educación media académica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 436,
+    "fields": {
+        "ciiu": "8523",
+        "sector": "Educación media técnica y de formación laboral",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 437,
+    "fields": {
+        "ciiu": "8530",
+        "sector": "Establecimientos que combinan diferentes niveles de educación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 438,
+    "fields": {
+        "ciiu": "8541",
+        "sector": "Educación técnica profesional",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 439,
+    "fields": {
+        "ciiu": "8542",
+        "sector": "Educación tecnológica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 440,
+    "fields": {
+        "ciiu": "8543",
+        "sector": "Educación de instituciones universitarias o de escuelas tecnológicas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 441,
+    "fields": {
+        "ciiu": "8544",
+        "sector": "Educación de universidades",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 442,
+    "fields": {
+        "ciiu": "8551",
+        "sector": "Formación académica no formal",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 443,
+    "fields": {
+        "ciiu": "8552",
+        "sector": "Enseñanza deportiva y recreativa",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 444,
+    "fields": {
+        "ciiu": "8553",
+        "sector": "Enseñanza cultural",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 445,
+    "fields": {
+        "ciiu": "8559",
+        "sector": "Otros tipos de educación n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 446,
+    "fields": {
+        "ciiu": "8560",
+        "sector": "Actividades de apoyo a la educación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 447,
+    "fields": {
+        "ciiu": "8610",
+        "sector": "Actividades de hospitales y clínicas, con internación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 448,
+    "fields": {
+        "ciiu": "8621",
+        "sector": "Actividades de la práctica médica, sin internación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 449,
+    "fields": {
+        "ciiu": "8622",
+        "sector": "Actividades de la práctica odontológica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 450,
+    "fields": {
+        "ciiu": "8691",
+        "sector": "Actividades de apoyo diagnóstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 451,
+    "fields": {
+        "ciiu": "8692",
+        "sector": "Actividades de apoyo terapéutico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 452,
+    "fields": {
+        "ciiu": "8699",
+        "sector": "Otras actividades de atención de la salud humana",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 453,
+    "fields": {
+        "ciiu": "8710",
+        "sector": "Actividades de atención residencial medicalizada de tipo general",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 454,
+    "fields": {
+        "ciiu": "8720",
+        "sector": "Actividades de atención residencial, para el cuidado de pacientes con retardo mental, enfermedad mental y consumo de sustancias psicoactivas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 455,
+    "fields": {
+        "ciiu": "8730",
+        "sector": "Actividades de atención en instituciones para el cuidado de personas mayores y/o discapacitadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 456,
+    "fields": {
+        "ciiu": "8790",
+        "sector": "Otras actividades de atención en instituciones con alojamiento",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 457,
+    "fields": {
+        "ciiu": "8810",
+        "sector": "Actividades de asistencia social sin alojamiento para personas mayores y discapacitadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 458,
+    "fields": {
+        "ciiu": "8890",
+        "sector": "Otras actividades de asistencia social sin alojamiento",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 459,
+    "fields": {
+        "ciiu": "9001",
+        "sector": "Creación literaria",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 460,
+    "fields": {
+        "ciiu": "9002",
+        "sector": "Creación musical",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 461,
+    "fields": {
+        "ciiu": "9003",
+        "sector": "Creación teatral",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 462,
+    "fields": {
+        "ciiu": "9004",
+        "sector": "Creación audiovisual",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 463,
+    "fields": {
+        "ciiu": "9005",
+        "sector": "Artes plásticas y visuales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 464,
+    "fields": {
+        "ciiu": "9006",
+        "sector": "Actividades teatrales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 465,
+    "fields": {
+        "ciiu": "9007",
+        "sector": "Actividades de espectáculos musicales en vivo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 466,
+    "fields": {
+        "ciiu": "9008",
+        "sector": "Otras actividades de espectáculos en vivo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 467,
+    "fields": {
+        "ciiu": "9101",
+        "sector": "Actividades de bibliotecas y archivos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 468,
+    "fields": {
+        "ciiu": "9102",
+        "sector": "Actividades y funcionamiento de museos, conservación de edificios y sitios históricos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 469,
+    "fields": {
+        "ciiu": "9103",
+        "sector": "Actividades de jardines botánicos, zoológicos y reservas naturales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 470,
+    "fields": {
+        "ciiu": "9200",
+        "sector": "Actividades de juegos de azar y apuestas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 471,
+    "fields": {
+        "ciiu": "9311",
+        "sector": "Gestión de instalaciones deportivas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 472,
+    "fields": {
+        "ciiu": "9312",
+        "sector": "Actividades de clubes deportivos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 473,
+    "fields": {
+        "ciiu": "9319",
+        "sector": "Otras actividades deportivas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 474,
+    "fields": {
+        "ciiu": "9321",
+        "sector": "Actividades de parques de atracciones y parques temáticos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 475,
+    "fields": {
+        "ciiu": "9329",
+        "sector": "Otras actividades recreativas y de esparcimiento n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 476,
+    "fields": {
+        "ciiu": "9411",
+        "sector": "Actividades de asociaciones empresariales y de empleadores",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 477,
+    "fields": {
+        "ciiu": "9412",
+        "sector": "Actividades de asociaciones profesionales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 478,
+    "fields": {
+        "ciiu": "9420",
+        "sector": "Actividades de sindicatos de empleados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 479,
+    "fields": {
+        "ciiu": "9491",
+        "sector": "Actividades de asociaciones religiosas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 480,
+    "fields": {
+        "ciiu": "9492",
+        "sector": "Actividades de asociaciones políticas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 481,
+    "fields": {
+        "ciiu": "9499",
+        "sector": "Actividades de otras asociaciones n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 482,
+    "fields": {
+        "ciiu": "9511",
+        "sector": "Mantenimiento y reparación de computadores y de equipo periférico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 483,
+    "fields": {
+        "ciiu": "9512",
+        "sector": "Mantenimiento y reparación de equipos de comunicación",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 484,
+    "fields": {
+        "ciiu": "9521",
+        "sector": "Mantenimiento y reparación de aparatos electrónicos de consumo",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 485,
+    "fields": {
+        "ciiu": "9522",
+        "sector": "Mantenimiento y reparación de aparatos y equipos domésticos y de jardinería",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 486,
+    "fields": {
+        "ciiu": "9523",
+        "sector": "Reparación de calzado y artículos de cuero",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 487,
+    "fields": {
+        "ciiu": "9524",
+        "sector": "Reparación de muebles y accesorios para el hogar",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 488,
+    "fields": {
+        "ciiu": "9529",
+        "sector": "Mantenimiento y reparación de otros efectos personales y enseres domésticos",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 489,
+    "fields": {
+        "ciiu": "9601",
+        "sector": "Lavado y limpieza, incluso la limpieza en seco, de productos textiles y de piel",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 490,
+    "fields": {
+        "ciiu": "9602",
+        "sector": "Peluquería y otros tratamientos de belleza",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 491,
+    "fields": {
+        "ciiu": "9603",
+        "sector": "Pompas fúnebres y actividades relacionadas",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 492,
+    "fields": {
+        "ciiu": "9609",
+        "sector": "Otras actividades de servicios personales n.c.p.",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 493,
+    "fields": {
+        "ciiu": "9700",
+        "sector": "Actividades de los hogares individuales como empleadores de personal doméstico",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 494,
+    "fields": {
+        "ciiu": "9810",
+        "sector": "Actividades no diferenciadas de los hogares individuales como productores de bienes para uso propio",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 495,
+    "fields": {
+        "ciiu": "9820",
+        "sector": "Actividades no diferenciadas de los hogares individuales como productores de servicios para uso propio",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 496,
+    "fields": {
+        "ciiu": "9900",
+        "sector": "Actividades de organizaciones y entidades extraterritoriales",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 497,
+    "fields": {
+        "ciiu": "10",
+        "sector": "Asalariados",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 498,
+    "fields": {
+        "ciiu": "81",
+        "sector": "Personas Naturales sin Actividad Económica",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 499,
+    "fields": {
+        "ciiu": "82",
+        "sector": "Personas Naturales Subsidiadas por Terceros",
+        "bloqueado": 0
+    }
+},
+{
+    "model": "scoring.ciiu",
+    "pk": 500,
+    "fields": {
+        "ciiu": "90",
+        "sector": "Rentistas de Capital, solo para personas naturales",
+        "bloqueado": 0
+    }
+}
+]

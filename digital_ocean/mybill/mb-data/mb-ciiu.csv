@@ -1,0 +1,500 @@
+"id";"CIIU";"sector";"bloqueado"
+2;"111";"Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas";0
+3;"112";"Cultivo de arroz";0
+4;"113";"Cultivo de hortalizas, raíces y tubérculos";0
+5;"114";"Cultivo de tabaco";0
+6;"115";"Cultivo de plantas textiles";0
+7;"119";"Otros cultivos transitorios n.c.p.";0
+8;"121";"Cultivo de frutas tropicales y subtropicales";0
+9;"122";"Cultivo de plátano y banano";0
+10;"123";"Cultivo de café";0
+11;"124";"Cultivo de caña de azúcar";0
+12;"125";"Cultivo de flor de corte";0
+13;"126";"Cultivo de palma para aceite (palma africana) y otros frutos oleaginosos";0
+14;"127";"Cultivo de plantas con las que se preparan bebidas";0
+15;"128";"Cultivo de especias y de plantas aromáticas y medicinales";0
+16;"129";"Otros cultivos permanentes n.c.p.";0
+17;"130";"Propagación de plantas (actividades de los viveros, excepto viveros forestales)";0
+18;"141";"Cría de ganado bovino y bufalino";0
+19;"142";"Cría de caballos y otros equinos";0
+20;"143";"Cría de ovejas y cabras";0
+21;"144";"Cría de ganado porcino";0
+22;"145";"Cría de aves de corral";0
+23;"149";"Cría de otros animales n.c.p.";0
+24;"150";"Explotación mixta (agrícola y pecuaria)";0
+25;"161";"Actividades de apoyo a la agricultura";0
+26;"162";"Actividades de apoyo a la ganadería";0
+27;"163";"Actividades posteriores a la cosecha";0
+28;"164";"Tratamiento de semillas para propagación";0
+29;"170";"Caza ordinaria y mediante trampas y actividades de servicios conexas";0
+30;"210";"Silvicultura y otras actividades forestales";0
+31;"220";"Extracción de madera";0
+32;"230";"Recolección de productos forestales diferentes a la madera";0
+33;"240";"Servicios de apoyo a la silvicultura";0
+34;"311";"Pesca marítima";0
+35;"312";"Pesca de agua dulce";0
+36;"321";"Acuicultura marítima";0
+37;"322";"Acuicultura de agua dulce";0
+38;"510";"Extracción de hulla (carbón de piedra)";0
+39;"520";"Extracción de carbón lignito";0
+40;"610";"Extracción de petróleo crudo";0
+41;"620";"Extracción de gas natural";0
+42;"710";"Extracción de minerales de hierro";0
+43;"721";"Extracción de minerales de uranio y de torio";0
+44;"722";"Extracción de oro y otros metales preciosos";0
+45;"723";"Extracción de minerales de níquel";0
+46;"729";"Extracción de otros minerales metalíferos no ferrosos n.c.p.";0
+47;"811";"Extracción de piedra, arena, arcillas comunes, yeso y anhidrita";0
+48;"812";"Extracción de arcillas de uso industrial, caliza, caolín y bentonitas";0
+49;"820";"Extracción de esmeraldas, piedras preciosas y semipreciosas";0
+50;"891";"Extracción de minerales para la fabricación de abonos y productos químicos";0
+51;"892";"Extracción de halita (sal)";0
+52;"899";"Extracción de otros minerales no metálicos n.c.p.";0
+53;"910";"Actividades de apoyo para la extracción de petróleo y de gas natural";0
+54;"990";"Actividades de apoyo para otras actividades de explotación de minas y canteras";0
+55;"1011";"Procesamiento y conservación de carne y productos cárnicos";0
+56;"1012";"Procesamiento y conservación de pescados, crustáceos y moluscos";0
+57;"1020";"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos";0
+58;"1030";"Elaboración de aceites y grasas de origen vegetal y animal";0
+59;"1040";"Elaboración de productos lácteos";0
+60;"1051";"Elaboración de productos de molinería";0
+61;"1052";"Elaboración de almidones y productos derivados del almidón";0
+62;"1061";"Trilla de café";0
+63;"1062";"Descafeinado, tostión y molienda del café";0
+64;"1063";"Otros derivados del café";0
+65;"1071";"Elaboración y refinación de azúcar";0
+66;"1072";"Elaboración de panela";0
+67;"1081";"Elaboración de productos de panadería";0
+68;"1082";"Elaboración de cacao, chocolate y productos de confitería";0
+69;"1083";"Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares";0
+70;"1084";"Elaboración de comidas y platos preparados";0
+71;"1089";"Elaboración de otros productos alimenticios n.c.p.";0
+72;"1090";"Elaboración de alimentos preparados para animales";0
+73;"1101";"Destilación, rectificación y mezcla de bebidas alcohólicas";0
+74;"1102";"Elaboración de bebidas fermentadas no destiladas";0
+75;"1103";"Producción de malta, elaboración de cervezas y otras bebidas malteadas";0
+76;"1104";"Elaboración de bebidas no alcohólicas, producción de aguas minerales y de otras aguas embotelladas";0
+77;"1200";"Elaboración de productos de tabaco";0
+78;"1311";"Preparación e hilatura de fibras textiles";0
+79;"1312";"Tejeduría de productos textiles";0
+80;"1313";"Acabado de productos textiles";0
+81;"1391";"Fabricación de tejidos de punto y ganchillo";0
+82;"1392";"Confección de artículos con materiales textiles, excepto prendas de vestir";0
+83;"1393";"Fabricación de tapetes y alfombras para pisos";0
+84;"1394";"Fabricación de cuerdas, cordeles, cables, bramantes y redes";0
+85;"1399";"Fabricación de otros artículos textiles n.c.p.";0
+86;"1410";"Confección de prendas de vestir, excepto prendas de piel";0
+87;"1420";"Fabricación de artículos de piel";0
+88;"1430";"Fabricación de artículos de punto y ganchillo";0
+89;"1511";"Curtido y recurtido de cueros; recurtido y teñido de pieles";0
+90;"1512";"Fabricación de artículos de viaje, bolsos de mano y artículos similares elaborados en cuero, y fabricación de artículos de talabartería y guarnicionería";0
+91;"1513";"Fabricación de artículos de viaje, bolsos de mano y artículos similares; artículos de talabartería y guarnicionería elaborados en otros materiales";0
+92;"1521";"Fabricación de calzado de cuero y piel, con cualquier tipo de suela";0
+93;"1522";"Fabricación de otros tipos de calzado, excepto calzado de cuero y piel";0
+94;"1523";"Fabricación de partes del calzado";0
+95;"1610";"Aserrado, acepillado e impregnación de la madera";0
+96;"1620";"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros laminados, tableros de partículas y otros tableros y paneles";0
+97;"1630";"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción";0
+98;"1640";"Fabricación de recipientes de madera";0
+99;"1690";"Fabricación de otros productos de madera; fabricación de artículos de corcho, cestería y espartería";0
+100;"1701";"Fabricación de pulpas (pastas) celulósicas; papel y cartón";0
+101;"1702";"Fabricación de papel y cartón ondulado (corrugado); fabricación de envases, empaques y de embalajes de papel y cartón.";0
+102;"1709";"Fabricación de otros artículos de papel y cartón";0
+103;"1811";"Actividades de impresión";0
+104;"1812";"Actividades de servicios relacionados con la impresión";0
+105;"1820";"Producción de copias a partir de grabaciones originales";0
+106;"1910";"Fabricación de productos de hornos de coque";0
+107;"1921";"Fabricación de productos de la refinación del petróleo";0
+108;"1922";"Actividad de mezcla de combustibles";0
+109;"2011";"Fabricación de sustancias y productos químicos básicos";0
+110;"2012";"Fabricación de abonos y compuestos inorgánicos nitrogenados";0
+111;"2013";"Fabricación de plásticos en formas primarias";0
+112;"2014";"Fabricación de caucho sintético en formas primarias";0
+113;"2021";"Fabricación de plaguicidas y otros productos químicos de uso agropecuario";0
+114;"2022";"Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas";0
+115;"2023";"Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador";0
+116;"2029";"Fabricación de otros productos químicos n.c.p.";0
+117;"2030";"Fabricación de fibras sintéticas y artificiales";0
+118;"2100";"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico";0
+119;"2211";"Fabricación de llantas y neumáticos de caucho";0
+120;"2212";"Reencauche de llantas usadas";0
+121;"2219";"Fabricación de formas básicas de caucho y otros productos de caucho n.c.p.";0
+122;"2221";"Fabricación de formas básicas de plástico";0
+123;"2229";"Fabricación de artículos de plástico n.c.p.";0
+124;"2310";"Fabricación de vidrio y productos de vidrio";0
+125;"2391";"Fabricación de productos refractarios";0
+126;"2392";"Fabricación de materiales de arcilla para la construcción";0
+127;"2393";"Fabricación de otros productos de cerámica y porcelana";0
+128;"2394";"Fabricación de cemento, cal y yeso";0
+129;"2395";"Fabricación de artículos de hormigón, cemento y yeso";0
+130;"2396";"Corte, tallado y acabado de la piedra";0
+131;"2399";"Fabricación de otros productos minerales no metálicos n.c.p.";0
+132;"2410";"Industrias básicas de hierro y de acero";0
+133;"2421";"Industrias básicas de metales preciosos";0
+134;"2429";"Industrias básicas de otros metales no ferrosos";0
+135;"2431";"Fundición de hierro y de acero";0
+136;"2432";"Fundición de metales no ferrosos";0
+137;"2511";"Fabricación de productos metálicos para uso estructural";0
+138;"2512";"Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para el envase o transporte de mercancías";0
+139;"2513";"Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central";0
+140;"2520";"Fabricación de armas y municiones";0
+141;"2591";"Forja, prensado, estampado y laminado de metal; pulvimetalurgia";0
+142;"2592";"Tratamiento y revestimiento de metales; mecanizado";0
+143;"2593";"Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería";0
+144;"2599";"Fabricación de otros productos elaborados de metal n.c.p.";0
+145;"2610";"Fabricación de componentes y tableros electrónicos";0
+146;"2620";"Fabricación de computadoras y de equipo periférico";0
+147;"2630";"Fabricación de equipos de comunicación";0
+148;"2640";"Fabricación de aparatos electrónicos de consumo";0
+149;"2651";"Fabricación de equipo de medición, prueba, navegación y control";0
+150;"2652";"Fabricación de relojes";0
+151;"2660";"Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico";0
+152;"2670";"Fabricación de instrumentos ópticos y equipo fotográfico";0
+153;"2680";"Fabricación de medios magnéticos y ópticos para almacenamiento de datos";0
+154;"2711";"Fabricación de motores, generadores y transformadores eléctricos";0
+155;"2712";"Fabricación de aparatos de distribución y control de la energía eléctrica";0
+156;"2720";"Fabricación de pilas, baterías y acumuladores eléctricos";0
+157;"2731";"Fabricación de hilos y cables eléctricos y de fibra óptica";0
+158;"2732";"Fabricación de dispositivos de cableado";0
+159;"2740";"Fabricación de equipos eléctricos de iluminación";0
+160;"2750";"Fabricación de aparatos de uso doméstico";0
+161;"2790";"Fabricación de otros tipos de equipo eléctrico n.c.p.";0
+162;"2811";"Fabricación de motores, turbinas, y partes para motores de combustión interna";0
+163;"2812";"Fabricación de equipos de potencia hidráulica y neumática";0
+164;"2813";"Fabricación de otras bombas, compresores, grifos y válvulas";0
+165;"2814";"Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión";0
+166;"2815";"Fabricación de hornos, hogares y quemadores industriales";0
+167;"2816";"Fabricación de equipo de elevación y manipulación";0
+168;"2817";"Fabricación de maquinaria y equipo de oficina (excepto computadoras y equipo periférico)";0
+169;"2818";"Fabricación de herramientas manuales con motor";0
+170;"2819";"Fabricación de otros tipos de maquinaria y equipo de uso general n.c.p.";0
+171;"2821";"Fabricación de maquinaria agropecuaria y forestal";0
+172;"2822";"Fabricación de máquinas formadoras de metal y de máquinas herramienta";0
+173;"2823";"Fabricación de maquinaria para la metalurgia";0
+174;"2824";"Fabricación de maquinaria para explotación de minas y canteras y para obras de construcción";0
+175;"2825";"Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco";0
+176;"2826";"Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros";0
+177;"2829";"Fabricación de otros tipos de maquinaria y equipo de uso especial n.c.p.";0
+178;"2910";"Fabricación de vehículos automotores y sus motores";0
+179;"2920";"Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques";0
+180;"2930";"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores";0
+181;"3011";"Construcción de barcos y de estructuras flotantes";0
+182;"3012";"Construcción de embarcaciones de recreo y deporte";0
+183;"3020";"Fabricación de locomotoras y de material rodante para ferrocarriles";0
+184;"3030";"Fabricación de aeronaves, naves espaciales y de maquinaria conexa";0
+185;"3040";"Fabricación de vehículos militares de combate";0
+186;"3091";"Fabricación de motocicletas";0
+187;"3092";"Fabricación de bicicletas y de sillas de ruedas para personas con discapacidad";0
+188;"3099";"Fabricación de otros tipos de equipo de transporte n.c.p.";0
+189;"3110";"Fabricación de muebles";0
+190;"3120";"Fabricación de colchones y somieres";0
+191;"3210";"Fabricación de joyas, bisutería y artículos conexos";0
+192;"3220";"Fabricación de instrumentos musicales";0
+193;"3230";"Fabricación de artículos y equipo para la práctica del deporte";0
+194;"3240";"Fabricación de juegos, juguetes y rompecabezas";0
+195;"3250";"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)";0
+196;"3290";"Otras industrias manufactureras n.c.p.";0
+197;"3311";"Mantenimiento y reparación especializado de productos elaborados en metal";0
+198;"3312";"Mantenimiento y reparación especializado de maquinaria y equipo";0
+199;"3313";"Mantenimiento y reparación especializado de equipo electrónico y óptico";0
+200;"3314";"Mantenimiento y reparación especializado de equipo eléctrico";0
+201;"3315";"Mantenimiento y reparación especializado de equipo de transporte, excepto los vehículos automotores, motocicletas y bicicletas";0
+202;"3319";"Mantenimiento y reparación de otros tipos de equipos y sus componentes n.c.p.";0
+203;"3320";"Instalación especializada de maquinaria y equipo industrial";0
+204;"3511";"Generación de energía eléctrica";0
+205;"3512";"Transmisión de energía eléctrica";0
+206;"3513";"Distribución de energía eléctrica";0
+207;"3514";"Comercialización de energía eléctrica";0
+208;"3520";"Producción de gas; distribución de combustibles gaseosos por tuberías";0
+209;"3530";"Suministro de vapor y aire acondicionado";0
+210;"3600";"Captación, tratamiento y distribución de agua";0
+211;"3700";"Evacuación y tratamiento de aguas residuales";0
+212;"3811";"Recolección de desechos no peligrosos";0
+213;"3812";"Recolección de desechos peligrosos";0
+214;"3821";"Tratamiento y disposición de desechos no peligrosos";0
+215;"3822";"Tratamiento y disposición de desechos peligrosos";0
+216;"3830";"Recuperación de materiales";0
+217;"3900";"Actividades de saneamiento ambiental y otros servicios de gestión de desechos";0
+218;"4111";"Construcción de edificios residenciales";0
+219;"4112";"Construcción de edificios no residenciales";0
+220;"4210";"Construcción de carreteras y vías de ferrocarril";0
+221;"4220";"Construcción de proyectos de servicio público";0
+222;"4290";"Construcción de otras obras de ingeniería civil";0
+223;"4311";"Demolición";0
+224;"4312";"Preparación del terreno";0
+225;"4321";"Instalaciones eléctricas";0
+226;"4322";"Instalaciones de fontanería, calefacción y aire acondicionado";0
+227;"4329";"Otras instalaciones especializadas";0
+228;"4330";"Terminación y acabado de edificios y obras de ingeniería civil";0
+229;"4390";"Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil";0
+230;"4511";"Comercio de vehículos automotores nuevos";0
+231;"4512";"Comercio de vehículos automotores usados";0
+232;"4520";"Mantenimiento y reparación de vehículos automotores";0
+233;"4530";"Comercio de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores";0
+234;"4541";"Comercio de motocicletas y de sus partes, piezas y accesorios";0
+235;"4542";"Mantenimiento y reparación de motocicletas y de sus partes y piezas";0
+236;"4610";"Comercio al por mayor a cambio de una retribución o por contrata";0
+237;"4620";"Comercio al por mayor de materias primas agropecuarias; animales vivos";0
+238;"4631";"Comercio al por mayor de productos alimenticios";0
+239;"4632";"Comercio al por mayor de bebidas y tabaco";0
+240;"4641";"Comercio al por mayor de productos textiles, productos confeccionados para uso doméstico";0
+241;"4642";"Comercio al por mayor de prendas de vestir";0
+242;"4643";"Comercio al por mayor de calzado";0
+243;"4644";"Comercio al por mayor de aparatos y equipo de uso doméstico";0
+244;"4645";"Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador";0
+245;"4649";"Comercio al por mayor de otros utensilios domésticos n.c.p.";0
+246;"4651";"Comercio al por mayor de computadores, equipo periférico y programas de informática";0
+247;"4652";"Comercio al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones";0
+248;"4653";"Comercio al por mayor de maquinaria y equipo agropecuarios";0
+249;"4659";"Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p.";0
+250;"4661";"Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos";0
+251;"4662";"Comercio al por mayor de metales y productos metalíferos";0
+252;"4663";"Comercio al por mayor de materiales de construcción, artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción";0
+253;"4664";"Comercio al por mayor de productos químicos básicos, cauchos y plásticos en formas primarias y productos químicos de uso agropecuario";0
+254;"4665";"Comercio al por mayor de desperdicios, desechos y chatarra";0
+255;"4669";"Comercio al por mayor de otros productos n.c.p.";0
+256;"4690";"Comercio al por mayor no especializado";0
+257;"4711";"Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco";0
+258;"4719";"Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco";0
+259;"4721";"Comercio al por menor de productos agrícolas para el consumo en establecimientos especializados";0
+260;"4722";"Comercio al por menor de leche, productos lácteos y huevos, en establecimientos especializados";0
+261;"4723";"Comercio al por menor de carnes (incluye aves de corral), productos cárnicos, pescados y productos de mar, en establecimientos especializados";0
+262;"4724";"Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados";0
+263;"4729";"Comercio al por menor de otros productos alimenticios n.c.p., en establecimientos especializados";0
+264;"4731";"Comercio al por menor de combustible para automotores";0
+265;"4732";"Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores";0
+266;"4741";"Comercio al por menor de computadores, equipos periféricos, programas de informática y equipos de telecomunicaciones en establecimientos especializados";0
+267;"4742";"Comercio al por menor de equipos y aparatos de sonido y de video, en establecimientos especializados";0
+268;"4751";"Comercio al por menor de productos textiles en establecimientos especializados";0
+269;"4752";"Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados";0
+270;"4753";"Comercio al por menor de tapices, alfombras y cubrimientos para paredes y pisos en establecimientos especializados";0
+271;"4754";"Comercio al por menor de electrodomésticos y gasodomésticos de uso doméstico, muebles y equipos de iluminación";0
+272;"4755";"Comercio al por menor de artículos y utensilios de uso doméstico";0
+273;"4759";"Comercio al por menor de otros artículos domésticos en establecimientos especializados";0
+274;"4761";"Comercio al por menor de libros, periódicos, materiales y artículos de papelería y escritorio, en establecimientos especializados";0
+275;"4762";"Comercio al por menor de artículos deportivos, en establecimientos especializados";0
+276;"4769";"Comercio al por menor de otros artículos culturales y de entretenimiento n.c.p. en establecimientos especializados";0
+277;"4771";"Comercio al por menor de prendas de vestir y sus accesorios (incluye artículos de piel) en establecimientos especializados";0
+278;"4772";"Comercio al por menor de todo tipo de calzado y artículos de cuero y sucedáneos del cuero en establecimientos especializados.";0
+279;"4773";"Comercio al por menor de productos farmacéuticos y medicinales, cosméticos y artículos de tocador en establecimientos especializados";0
+280;"4774";"Comercio al por menor de otros productos nuevos en establecimientos especializados";0
+281;"4775";"Comercio al por menor de artículos de segunda mano";0
+282;"4781";"Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles";0
+283;"4782";"Comercio al por menor de productos textiles, prendas de vestir y calzado, en puestos de venta móviles";0
+284;"4789";"Comercio al por menor de otros productos en puestos de venta móviles";0
+285;"4791";"Comercio al por menor realizado a través de Internet";0
+286;"4792";"Comercio al por menor realizado a través de casas de venta o por correo";0
+287;"4799";"Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o mercados.";0
+288;"4911";"Transporte férreo de pasajeros";0
+289;"4912";"Transporte férreo de carga";0
+290;"4921";"Transporte de pasajeros";0
+291;"4922";"Transporte mixto";0
+292;"4923";"Transporte de carga por carretera";1
+293;"4930";"Transporte por tuberías";0
+294;"5011";"Transporte de pasajeros marítimo y de cabotaje";0
+295;"5012";"Transporte de carga marítimo y de cabotaje";0
+296;"5021";"Transporte fluvial de pasajeros";0
+297;"5022";"Transporte fluvial de carga";0
+298;"5111";"Transporte aéreo nacional de pasajeros";0
+299;"5112";"Transporte aéreo internacional de pasajeros";0
+300;"5121";"Transporte aéreo nacional de carga";0
+301;"5122";"Transporte aéreo internacional de carga";0
+302;"5210";"Almacenamiento y depósito";0
+303;"5221";"Actividades de estaciones, vías y servicios complementarios para el transporte terrestre";0
+304;"5222";"Actividades de puertos y servicios complementarios para el transporte acuático";0
+305;"5223";"Actividades de aeropuertos, servicios de navegación aérea y demás actividades conexas al transporte aéreo";0
+306;"5224";"Manipulación de carga";0
+307;"5229";"Otras actividades complementarias al transporte";0
+308;"5310";"Actividades postales nacionales";0
+309;"5320";"Actividades de mensajería";0
+310;"5511";"Alojamiento en hoteles";0
+311;"5512";"Alojamiento en apartahoteles";0
+312;"5513";"Alojamiento en centros vacacionales";0
+313;"5514";"Alojamiento rural";0
+314;"5519";"Otros tipos de alojamientos para visitantes";0
+315;"5520";"Actividades de zonas de camping y parques para vehículos recreacionales";0
+316;"5530";"Servicio por horas";0
+317;"5590";"Otros tipos de alojamiento n.c.p.";0
+318;"5611";"Expendio a la mesa de comidas preparadas";0
+319;"5612";"Expendio por autoservicio de comidas preparadas";0
+320;"5613";"Expendio de comidas preparadas en cafeterías";0
+321;"5619";"Otros tipos de expendio de comidas preparadas n.c.p.";0
+322;"5621";"Catering para eventos";0
+323;"5629";"Actividades de otros servicios de comidas";0
+324;"5630";"Expendio de bebidas alcohólicas para el consumo dentro del establecimiento";0
+325;"5811";"Edición de libros";0
+326;"5812";"Edición de directorios y listas de correo";0
+327;"5813";"Edición de periódicos, revistas y otras publicaciones periódicas";0
+328;"5819";"Otros trabajos de edición";0
+329;"5820";"Edición de programas de informática (software)";0
+330;"5911";"Actividades de producción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión";0
+331;"5912";"Actividades de posproducción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión";0
+332;"5913";"Actividades de distribución de películas cinematográficas, videos, programas, anuncios y comerciales de televisión";0
+333;"5914";"Actividades de exhibición de películas cinematográficas y videos";0
+334;"5920";"Actividades de grabación de sonido y edición de música";0
+335;"6010";"Actividades de programación y transmisión en el servicio de radiodifusión sonora";0
+336;"6020";"Actividades de programación y transmisión de televisión";0
+337;"6110";"Actividades de telecomunicaciones alámbricas";0
+338;"6120";"Actividades de telecomunicaciones inalámbricas";0
+339;"6130";"Actividades de telecomunicación satelital";0
+340;"6190";"Otras actividades de telecomunicaciones";0
+341;"6201";"Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas)";0
+342;"6202";"Actividades de consultoría informática y actividades de administración de instalaciones informáticas";0
+343;"6209";"Otras actividades de tecnologías de información y actividades de servicios informáticos";0
+344;"6311";"Procesamiento de datos, alojamiento (hosting) y actividades relacionadas";0
+345;"6312";"Portales web";0
+346;"6391";"Actividades de agencias de noticias";0
+347;"6399";"Otras actividades de servicio de información n.c.p.";0
+348;"6411";"Banco Central";0
+349;"6412";"Bancos comerciales";0
+350;"6421";"Actividades de las corporaciones financieras";0
+351;"6422";"Actividades de las compañías de financiamiento";0
+352;"6423";"Banca de segundo piso";0
+353;"6424";"Actividades de las cooperativas financieras";0
+354;"6431";"Fideicomisos, fondos y entidades financieras similares";0
+355;"6432";"Fondos de cesantías";0
+356;"6491";"Leasing financiero (arrendamiento financiero)";0
+357;"6492";"Actividades financieras de fondos de empleados y otras formas asociativas del sector solidario";0
+358;"6493";"Actividades de compra de cartera o factoring";0
+359;"6494";"Otras actividades de distribución de fondos";0
+360;"6495";"Instituciones especiales oficiales";0
+361;"6499";"Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.";0
+362;"6511";"Seguros generales";0
+363;"6512";"Seguros de vida";0
+364;"6513";"Reaseguros";0
+365;"6514";"Capitalización";0
+366;"6521";"Servicios de seguros sociales de salud";0
+367;"6522";"Servicios de seguros sociales de riesgos profesionales";0
+368;"6531";"Régimen de prima media con prestación definida (RPM)";0
+369;"6532";"Régimen de ahorro individual (RAI)";0
+370;"6611";"Administración de mercados financieros";0
+371;"6612";"Corretaje de valores y de contratos de productos básicos";0
+372;"6613";"Otras actividades relacionadas con el mercado de valores";0
+373;"6614";"Actividades de las casas de cambio";0
+374;"6615";"Actividades de los profesionales de compra y venta de divisas";0
+375;"6619";"Otras actividades auxiliares de las actividades de servicios financieros n.c.p.";0
+376;"6621";"Actividades de agentes y corredores de seguros";0
+377;"6629";"Evaluación de riesgos y daños, y otras actividades de servicios auxiliares";0
+378;"6630";"Actividades de administración de fondos";0
+379;"6810";"Actividades inmobiliarias realizadas con bienes propios o arrendados";1
+380;"6820";"Actividades inmobiliarias realizadas a cambio de una retribución o por contrata";0
+381;"6910";"Actividades jurídicas";0
+382;"6920";"Actividades de contabilidad, teneduría de libros, auditoría financiera y asesoría tributaria";0
+383;"7010";"Actividades de administración empresarial";0
+384;"7020";"Actividades de consultaría de gestión";0
+385;"7110";"Actividades de arquitectura e ingeniería y otras actividades conexas de consultoría técnica";0
+386;"7120";"Ensayos y análisis técnicos";0
+387;"7210";"Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería";0
+388;"7220";"Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades";0
+389;"7310";"Publicidad";0
+390;"7320";"Estudios de mercado y realización de encuestas de opinión pública";0
+391;"7410";"Actividades especializadas de diseño";0
+392;"7420";"Actividades de fotografía";0
+393;"7490";"Otras actividades profesionales, científicas y técnicas n.c.p.";0
+394;"7500";"Actividades veterinarias";0
+395;"7710";"Alquiler y arrendamiento de vehículos automotores";0
+396;"7721";"Alquiler y arrendamiento de equipo recreativo y deportivo";0
+397;"7722";"Alquiler de videos y discos";0
+398;"7729";"Alquiler y arrendamiento de otros efectos personales y enseres domésticos n.c.p.";0
+399;"7730";"Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p.";0
+400;"7740";"Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor";0
+401;"7810";"Actividades de agencias de empleo";0
+402;"7820";"Actividades de agencias de empleo temporal";0
+403;"7830";"Otras actividades de suministro de recurso humano";0
+404;"7911";"Actividades de las agencias de viaje";0
+405;"7912";"Actividades de operadores turísticos";0
+406;"7990";"Otros servicios de reserva y actividades relacionadas";0
+407;"8010";"Actividades de seguridad privada";0
+408;"8020";"Actividades de servicios de sistemas de seguridad";0
+409;"8030";"Actividades de detectives e investigadores privados";0
+410;"8110";"Actividades combinadas de apoyo a instalaciones";0
+411;"8121";"Limpieza general interior de edificios";0
+412;"8129";"Otras actividades de limpieza de edificios e instalaciones industriales";0
+413;"8130";"Actividades de paisajismo y servicios de mantenimiento conexos";0
+414;"8211";"Actividades combinadas de servicios administrativos de oficina";0
+415;"8219";"Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo a oficina";0
+416;"8220";"Actividades de centros de llamadas (Call center)";0
+417;"8230";"Organización de convenciones y eventos comerciales";0
+418;"8291";"Actividades de agencias de cobranza y oficinas de calificación crediticia";0
+419;"8292";"Actividades de envase y empaque";0
+420;"8299";"Otras actividades de servicio de apoyo a las empresas n.c.p.";0
+421;"8411";"Actividades legislativas de la administración pública";0
+422;"8412";"Actividades ejecutivas de la administración pública";0
+423;"8413";"Regulación de las actividades de organismos que prestan servicios de salud, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social";0
+424;"8414";"Actividades reguladoras y facilitadoras de la actividad económica";0
+425;"8415";"Actividades de los otros órganos de control";0
+426;"8421";"Relaciones exteriores";0
+427;"8422";"Actividades de defensa";0
+428;"8423";"Orden público y actividades de seguridad";0
+429;"8424";"Administración de justicia";0
+430;"8430";"Actividades de planes de seguridad social de afiliación obligatoria";0
+431;"8511";"Educación de la primera infancia";0
+432;"8512";"Educación preescolar";0
+433;"8513";"Educación básica primaria";0
+434;"8521";"Educación básica secundaria";0
+435;"8522";"Educación media académica";0
+436;"8523";"Educación media técnica y de formación laboral";0
+437;"8530";"Establecimientos que combinan diferentes niveles de educación";0
+438;"8541";"Educación técnica profesional";0
+439;"8542";"Educación tecnológica";0
+440;"8543";"Educación de instituciones universitarias o de escuelas tecnológicas";0
+441;"8544";"Educación de universidades";0
+442;"8551";"Formación académica no formal";0
+443;"8552";"Enseñanza deportiva y recreativa";0
+444;"8553";"Enseñanza cultural";0
+445;"8559";"Otros tipos de educación n.c.p.";0
+446;"8560";"Actividades de apoyo a la educación";0
+447;"8610";"Actividades de hospitales y clínicas, con internación";0
+448;"8621";"Actividades de la práctica médica, sin internación";0
+449;"8622";"Actividades de la práctica odontológica";0
+450;"8691";"Actividades de apoyo diagnóstico";0
+451;"8692";"Actividades de apoyo terapéutico";0
+452;"8699";"Otras actividades de atención de la salud humana";0
+453;"8710";"Actividades de atención residencial medicalizada de tipo general";0
+454;"8720";"Actividades de atención residencial, para el cuidado de pacientes con retardo mental, enfermedad mental y consumo de sustancias psicoactivas";0
+455;"8730";"Actividades de atención en instituciones para el cuidado de personas mayores y/o discapacitadas";0
+456;"8790";"Otras actividades de atención en instituciones con alojamiento";0
+457;"8810";"Actividades de asistencia social sin alojamiento para personas mayores y discapacitadas";0
+458;"8890";"Otras actividades de asistencia social sin alojamiento";0
+459;"9001";"Creación literaria";0
+460;"9002";"Creación musical";0
+461;"9003";"Creación teatral";0
+462;"9004";"Creación audiovisual";0
+463;"9005";"Artes plásticas y visuales";0
+464;"9006";"Actividades teatrales";0
+465;"9007";"Actividades de espectáculos musicales en vivo";0
+466;"9008";"Otras actividades de espectáculos en vivo";0
+467;"9101";"Actividades de bibliotecas y archivos";0
+468;"9102";"Actividades y funcionamiento de museos, conservación de edificios y sitios históricos";0
+469;"9103";"Actividades de jardines botánicos, zoológicos y reservas naturales";0
+470;"9200";"Actividades de juegos de azar y apuestas";0
+471;"9311";"Gestión de instalaciones deportivas";0
+472;"9312";"Actividades de clubes deportivos";0
+473;"9319";"Otras actividades deportivas";0
+474;"9321";"Actividades de parques de atracciones y parques temáticos";0
+475;"9329";"Otras actividades recreativas y de esparcimiento n.c.p.";0
+476;"9411";"Actividades de asociaciones empresariales y de empleadores";0
+477;"9412";"Actividades de asociaciones profesionales";0
+478;"9420";"Actividades de sindicatos de empleados";0
+479;"9491";"Actividades de asociaciones religiosas";0
+480;"9492";"Actividades de asociaciones políticas";0
+481;"9499";"Actividades de otras asociaciones n.c.p.";0
+482;"9511";"Mantenimiento y reparación de computadores y de equipo periférico";0
+483;"9512";"Mantenimiento y reparación de equipos de comunicación";0
+484;"9521";"Mantenimiento y reparación de aparatos electrónicos de consumo";0
+485;"9522";"Mantenimiento y reparación de aparatos y equipos domésticos y de jardinería";0
+486;"9523";"Reparación de calzado y artículos de cuero";0
+487;"9524";"Reparación de muebles y accesorios para el hogar";0
+488;"9529";"Mantenimiento y reparación de otros efectos personales y enseres domésticos";0
+489;"9601";"Lavado y limpieza, incluso la limpieza en seco, de productos textiles y de piel";0
+490;"9602";"Peluquería y otros tratamientos de belleza";0
+491;"9603";"Pompas fúnebres y actividades relacionadas";0
+492;"9609";"Otras actividades de servicios personales n.c.p.";0
+493;"9700";"Actividades de los hogares individuales como empleadores de personal doméstico";0
+494;"9810";"Actividades no diferenciadas de los hogares individuales como productores de bienes para uso propio";0
+495;"9820";"Actividades no diferenciadas de los hogares individuales como productores de servicios para uso propio";0
+496;"9900";"Actividades de organizaciones y entidades extraterritoriales";0
+497;"10";"Asalariados";0
+498;"81";"Personas Naturales sin Actividad Económica";0
+499;"82";"Personas Naturales Subsidiadas por Terceros";0
+500;"90";"Rentistas de Capital, solo para personas naturales";0

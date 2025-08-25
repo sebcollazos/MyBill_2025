@@ -1,0 +1,963 @@
+<html>
+
+<head>
+    <meta charset="utf8">
+
+    <!--<script src="dist/sql-wasm.js"></script>-->
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            text-align: left;
+            padding: 16px;
+        }
+
+        td {
+            text-align: right;
+            padding: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #error {
+            color: red;
+        }
+
+        tr:nth-child(10),
+        /* ACTIVOS CORRIENTES */
+        tr:nth-child(16),
+        /* ACTIVOS NO CORRIENTES */
+        tr:nth-child(24),
+        /* PASIVOS CORRIENTES */
+        tr:nth-child(32),
+        /* PASIVOS NO CORRIENTES */
+        tr:nth-child(40),
+        /* PATRIMONIO */
+        tr:nth-child(49),
+        /* PYG */
+        tr:nth-child(63),
+        /* INDICADOREs */
+        tr:nth-child(90)
+
+        /* CUPO */
+            {
+            background-color: #6AB187;
+        }
+
+        tr:nth-child(15),
+        /* TOTAL ACTIVOS CORRIENTES */
+        tr:nth-child(22),
+        /* TOTAL ACTIVOS NO CORRIENTES */
+        tr:nth-child(31),
+        /* TOTAL PASIVOS CORRIENTES */
+        tr:nth-child(38),
+        /* TOTAL PASIVOS NO CORRIENTES */
+        tr:nth-child(48),
+        /* TOTAL PASIVO + PATRIMONIO */
+        tr:nth-child(62),
+        /* RESULTADO DEL EJERCICIO */
+        tr:nth-child(88)
+
+        /* CUPO APROBADO */
+            {
+            background-color: #DBAE58;
+        }
+
+        tr:nth-child(23),
+        /* TOTAL ACTIVOS */
+        tr:nth-child(39),
+        /* TOTAL PASIVOS */
+        tr:nth-child(47),
+        /* TOTAL PATRIMONIO */
+        tr:nth-child(52),
+        /* RESULTADO BRUTO */
+        tr:nth-child(55),
+        /* RESULTADO OPERACIONAL */
+        tr:nth-child(60),
+        /* RESULTADO ANTES DE IMPUESTOS */
+        tr:nth-child(87),
+        /* PUNTAJE */
+        tr:nth-child(89)
+
+        /* PUNTAJE SEGUN SECTOR */
+            {
+            color: #FFFFFF;
+            background-color: #1F3F49;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="nit"></label>
+    <main>
+        <div>
+            Abrir Base de Datos:
+            <input type="file" id="dbfile">
+        </div>
+        <div>
+            Ingrese Nit:
+            <input type="text" id="nit">
+            <button id="buscar" class="button">Buscar</button>
+            <button id="transpose" class="button">Transponer</button>
+
+        </div>
+        <div>
+            SQL:
+            <textarea id="commands" rows="10" cols="40"></textarea>
+            <button id="execute" class="button">Ejecutar</button>
+        </div>
+
+
+        <!-- <button id="savedb" class="button">Save the db</button> -->
+
+        <div id="error" class="error" style="height: 0px;"></div>
+
+        Results will be displayed here
+        <tbody>
+            <tr>
+                <th>NIT:</th>
+                <td>800,002,818</td>
+                <td>800,002,818</td>
+                <td>800,002,818</td>
+            </tr>
+            <tr>
+                <th>EMPRESA:</th>
+                <td>CARBONES DE LOS ANDES S A EN REORGANIZACION</td>
+                <td>CARBONES DE LOS ANDES S A EN REORGANIZACION</td>
+                <td>CARBONES DE LOS ANDES S A EN REORGANIZACION</td>
+            </tr>
+            <tr>
+                <th>CÓDIGO CIIU:</th>
+                <td>K6499</td>
+                <td>K6499</td>
+                <td>K6499</td>
+            </tr>
+            <tr>
+                <th>SECTOR:</th>
+                <td>Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.</td>
+                <td>Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.</td>
+                <td>Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p.</td>
+            </tr>
+            <tr>
+                <th>PYME:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>ENTRADA:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>PERÍODO:</th>
+                <td>2,020</td>
+                <td>2,019</td>
+                <td>2,018</td>
+            </tr>
+            <tr>
+                <th>FECHA:</th>
+                <td>2020-12-31</td>
+                <td>2020-12-31</td>
+                <td>2019-12-31</td>
+            </tr>
+            <tr>
+                <th>UNIDADES:</th>
+                <td>MILES</td>
+                <td>MILES</td>
+                <td>MILES</td>
+            </tr>
+            <tr>
+                <th>ACTIVOS CORRIENTES</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>1.- Efectivo y equivalentes al efectivo:</th>
+                <td>91,470</td>
+                <td>4,752</td>
+                <td>34,644</td>
+            </tr>
+            <tr>
+                <th>2.- Otros Activos Corrientes:</th>
+                <td>137,683</td>
+                <td>301,766</td>
+                <td>256,200</td>
+            </tr>
+            <tr>
+                <th>3.- Cuentas por cobrar comerciales y otras (neto):</th>
+                <td>0</td>
+                <td>12,750</td>
+                <td>547,823</td>
+            </tr>
+            <tr>
+                <th>4.- Inventarios (neto):</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>TOTAL ACTIVOS CORRIENTES</th>
+                <td>229,153</td>
+                <td>319,268</td>
+                <td>838,667</td>
+            </tr>
+            <tr>
+                <th>ACTIVOS NO CORRIENTES</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5.- Propiedad, planta y equipo (neto):</th>
+                <td>2,684,082</td>
+                <td>2,774,747</td>
+                <td>3,223,040</td>
+            </tr>
+            <tr>
+                <th>6.- Cuentas por cobrar comerciales y otras (neto):</th>
+                <td>19,366,263</td>
+                <td>18,457,984</td>
+                <td>17,941,579</td>
+            </tr>
+            <tr>
+                <th>7.- Propiedades de Inversión:</th>
+                <td>10,278,065</td>
+                <td>10,894,660</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>8.- Otros Activos:</th>
+                <td>55,959,222</td>
+                <td>58,636,382</td>
+                <td>79,780,808</td>
+            </tr>
+            <tr>
+                <th>9.- Activos por impuestos diferidos:</th>
+                <td>19,366,263</td>
+                <td>18,457,984</td>
+                <td>17,941,579</td>
+            </tr>
+            <tr>
+                <th>TOTAL ACTIVOS NO CORRIENTES</th>
+                <td>107,653,895</td>
+                <td>109,221,757</td>
+                <td>118,887,006</td>
+            </tr>
+            <tr>
+                <th>TOTAL ACTIVOS</th>
+                <td>107,883,048</td>
+                <td>109,541,025</td>
+                <td>119,725,673</td>
+            </tr>
+            <tr>
+                <th>PASIVOS CORRIENTES</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10.- Obligaciones financieras:</th>
+                <td>5,020</td>
+                <td>1,843</td>
+                <td>1,889</td>
+            </tr>
+            <tr>
+                <th>11.- Cuentas por pagar comerciales:</th>
+                <td>31,361,512</td>
+                <td>29,712,029</td>
+                <td>29,953,130</td>
+            </tr>
+            <tr>
+                <th>12.- Otros pasivos corrientes:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>13.- Beneficios a empleados:</th>
+                <td>206,819</td>
+                <td>99,521</td>
+                <td>137,910</td>
+            </tr>
+            <tr>
+                <th>14.- Impuestos por pagar:</th>
+                <td>5,930,795</td>
+                <td>5,283,126</td>
+                <td>3,412,112</td>
+            </tr>
+            <tr>
+                <th>15.- Otros pasivos no financieros:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>TOTAL PASIVOS CORRIENTES</th>
+                <td>37,504,146</td>
+                <td>35,096,519</td>
+                <td>33,505,041</td>
+            </tr>
+            <tr>
+                <th>PASIVOS NO CORRIENTES</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>16.- Obligaciones financieras:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>17.- Comerciales y otras cuentas por pagar:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>18.- Pasivo por impuestos diferidos:</th>
+                <td>982,813</td>
+                <td>840,369</td>
+                <td>831,984</td>
+            </tr>
+            <tr>
+                <th>19.- Impuestos por pagar:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>20.- Otros pasivos no corrientes:</th>
+                <td>3,955,358</td>
+                <td>224,536</td>
+                <td>52,685</td>
+            </tr>
+            <tr>
+                <th>TOTAL PASIVOS NO CORRIENTES</th>
+                <td>4,938,171</td>
+                <td>1,064,905</td>
+                <td>884,669</td>
+            </tr>
+            <tr>
+                <th>TOTAL PASIVOS</th>
+                <td>42,442,317</td>
+                <td>36,161,424</td>
+                <td>34,389,710</td>
+            </tr>
+            <tr>
+                <th>PATRIMONIO</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>21.- Capital pagado:</th>
+                <td>1,403,951</td>
+                <td>1,403,951</td>
+                <td>1,403,951</td>
+            </tr>
+            <tr>
+                <th>22.- Prima en colocación de acciones:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>23.- Reservas:</th>
+                <td>810,000</td>
+                <td>810,000</td>
+                <td>810,000</td>
+            </tr>
+            <tr>
+                <th>24.- Resultados acumulados:</th>
+                <td>63,226,780</td>
+                <td>71,165,650</td>
+                <td>83,122,012</td>
+            </tr>
+            <tr>
+                <th>25.- Resultado del ejercicio:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>26.- Otro resultado integral:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>TOTAL PATRIMONIO</th>
+                <td>65,440,731</td>
+                <td>73,379,601</td>
+                <td>85,335,963</td>
+            </tr>
+            <tr>
+                <th>TOTAL PASIVO + PATRIMONIO</th>
+                <td>107,883,048</td>
+                <td>109,541,025</td>
+                <td>119,725,673</td>
+            </tr>
+            <tr>
+                <th>PRINCIPALES CUENTAS DE PÉRDIDAS Y GANANCIAS</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>27.- Ingreso de actividades ordinarias:</th>
+                <td>1,045,820</td>
+                <td>1,001,093</td>
+                <td>27,269</td>
+            </tr>
+            <tr>
+                <th>28.- Costo de ventas:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>68,358</td>
+            </tr>
+            <tr>
+                <th>RESULTADO BRUTO:</th>
+                <td>1,045,820</td>
+                <td>1,001,093</td>
+                <td>-41,089</td>
+            </tr>
+            <tr>
+                <th>29.- Gastos de administración:</th>
+                <td>730,133</td>
+                <td>1,081,450</td>
+                <td>10,216,981</td>
+            </tr>
+            <tr>
+                <th>30.- Gastos de ventas:</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>RESULTADO OPERACIONAL:</th>
+                <td>315,687</td>
+                <td>-80,357</td>
+                <td>-10,258,070</td>
+            </tr>
+            <tr>
+                <th>31.- Gastos financieros:</th>
+                <td>1,038,511</td>
+                <td>946,296</td>
+                <td>3,862,035</td>
+            </tr>
+            <tr>
+                <th>32.- Otros gastos:</th>
+                <td>8,233,175</td>
+                <td>12,694,915</td>
+                <td>663,448</td>
+            </tr>
+            <tr>
+                <th>33.- Ingresos financieros:</th>
+                <td>119</td>
+                <td>64,857</td>
+                <td>1,039,082</td>
+            </tr>
+            <tr>
+                <th>34.- Otros ingresos:</th>
+                <td>709,600</td>
+                <td>1,047,230</td>
+                <td>4,783,089</td>
+            </tr>
+            <tr>
+                <th>RESULTADO ANTES DE IMPUESTOS:</th>
+                <td>-9,087,753</td>
+                <td>-12,754,137</td>
+                <td>-8,961,382</td>
+            </tr>
+            <tr>
+                <th>35.- Gasto (ingreso) por impuestos (neto):</th>
+                <td>-1,148,883</td>
+                <td>-797,772</td>
+                <td>-2,140,000</td>
+            </tr>
+            <tr>
+                <th>RESULTADO DEL EJERCICIO:</th>
+                <td>315,687</td>
+                <td>-80,357</td>
+                <td>-10,258,070</td>
+            </tr>
+            <tr>
+                <th>INDICADORES FINANCIEROS</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Solvencia</th>
+                <td>0.607</td>
+                <td>0.67</td>
+                <td>0.713</td>
+            </tr>
+            <tr>
+                <th>Razón Corriente</th>
+                <td>0.006 Pts: <b>0</b></td>
+                <td>0.009 Pts: <b>0</b></td>
+                <td>0.025 Pts: <b>0</b></td>
+            </tr>
+            <tr>
+                <th>Prueba ácida</th>
+                <td>0.006</td>
+                <td>0.009</td>
+                <td>0.025</td>
+            </tr>
+            <tr>
+                <th>Capital de Trabajo</th>
+                <td>-37,274,993</td>
+                <td>-34,777,251</td>
+                <td>-32,666,374</td>
+            </tr>
+            <tr>
+                <th>ROE</th>
+                <td>0.005</td>
+                <td>-0.001</td>
+                <td>-0.12</td>
+            </tr>
+            <tr>
+                <th>Gastos financieros / ventas (%)</th>
+                <td>99.301%</td>
+                <td>94.526%</td>
+                <td>14,162.731%</td>
+            </tr>
+            <tr>
+                <th>Gearing (%)</th>
+                <td>0.008%</td>
+                <td>0.003%</td>
+                <td>0.002%</td>
+            </tr>
+            <tr>
+                <th>Apalancamiento Activos Fijos / Ingresos (%)</th>
+                <td>256.649%</td>
+                <td>277.172%</td>
+                <td>11,819.429%</td>
+            </tr>
+            <tr>
+                <th>Apalancamiento activos fijos / Activo Total (%)</th>
+                <td>2.488%</td>
+                <td>2.533%</td>
+                <td>2.692%</td>
+            </tr>
+            <tr>
+                <th>Endeudamiento Financiero (%)</th>
+                <td>0.012%</td>
+                <td>0.005%</td>
+                <td>0.005%</td>
+            </tr>
+            <tr>
+                <th>Endeudamiento a ventas (%)</th>
+                <td>4,058.281%</td>
+                <td>3,612.194%</td>
+                <td>126,112.839%</td>
+            </tr>
+            <tr>
+                <th>Endeudamiento total (%)</th>
+                <td>39.341 Pts: <b>1000</b></td>
+                <td>33.012 Pts: <b>1000</b></td>
+                <td>28.724 Pts: <b>1000</b></td>
+            </tr>
+            <tr>
+                <th>Concentración en corto plazo (%)</th>
+                <td>88.365%</td>
+                <td>97.055%</td>
+                <td>97.428%</td>
+            </tr>
+            <tr>
+                <th>Relación deuda corto plazo / Ventas (%)</th>
+                <td>0.48%</td>
+                <td>0.184%</td>
+                <td>6.927%</td>
+            </tr>
+            <tr>
+                <th>Gastos financieros / Utilidad Operacional (%)</th>
+                <td>328.969%</td>
+                <td>-1,177.615%</td>
+                <td>-37.649%</td>
+            </tr>
+            <tr>
+                <th>Apalancamiento bancario (%)</th>
+                <td>0.005%</td>
+                <td>0.002%</td>
+                <td>0.002%</td>
+            </tr>
+            <tr>
+                <th>Margen operacional</th>
+                <td>30.186</td>
+                <td>-8.027</td>
+                <td>-37,618.064</td>
+            </tr>
+            <tr>
+                <th>Margen neto</th>
+                <td>-759.105</td>
+                <td>-1,194.331</td>
+                <td>-25,015.153</td>
+            </tr>
+            <tr>
+                <th>Rotación inventario</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>Rotación de cartera</th>
+                <td>0</td>
+                <td>4.585</td>
+                <td>7,232.252</td>
+            </tr>
+            <tr>
+                <th>Ciclo operacional</th>
+                <td>0</td>
+                <td>0</td>
+                <td>7232.2520077744 Pts: 0</td>
+            </tr>
+            <tr>
+                <th>Periodo pago proveedores</th>
+                <td>0</td>
+                <td>0</td>
+                <td>157,744.914</td>
+            </tr>
+            <tr>
+                <th>Rentabilidad operacional (%)</th>
+                <td>30.186 Pts: <b>1000</b></td>
+                <td>-8.027 Pts: <b>0</b></td>
+                <td>-37618.064 Pts: <b>0</b></td>
+            </tr>
+            <tr>
+                <th>PUNTAJE:</th>
+                <td>500</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th>PUNTAJE SECTOR:</th>
+                <td>1,000</td>
+                <td>1,000</td>
+                <td>1,000</td>
+            </tr>
+            <tr>
+                <th>PUNTAJE (Según SECTOR):</th>
+                <td>500</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th>CUPO APROBADO:</th>
+                <td>43,575</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </main>
+    <script>
+        var inputElement = document.getElementById("dbfile");
+        var buscarBtn = document.getElementById("buscar");
+        var transposeBtn = document.getElementById("transpose");
+        var executeBtn = document.getElementById("execute");
+        var output = document.getElementById("output");
+        var errorDiv = document.getElementById("error");
+        var editor = document.getElementById("commands");
+
+        // Start the worker in which sql.js will run
+        var worker = new Worker("../../dist/worker.sql-wasm.js");
+        worker.onerror = error;
+
+        // Open a database
+        worker.postMessage({ action: 'open' });
+        execute
+
+        // Run a command in the database
+        function execute(commands) {
+            console.log(commands);
+            noerror();
+            tic();
+            worker.onmessage = function (event) {
+                var results = event.data.results;
+                toc("Executing SQL");
+                if (!results) {
+                    error({ message: event.data.error });
+                    return;
+                }
+
+                tic();
+                output.innerHTML = "";
+                for (var i = 0; i < results.length; i++) {
+                    output.appendChild(tableCreate(results[i].columns, results[i].values));
+                }
+                toc("Displaying results");
+            }
+            worker.postMessage({ action: 'exec', sql: commands });
+            output.textContent = "Fetching results...";
+        }
+
+        // Create an HTML table
+        var tableCreate = function () {
+            function valconcat(vals, tagName) {
+                if (vals.length === 0) return '';
+                var open = '<' + tagName + '>', close = '</' + tagName + '>';
+                return open + vals.join(close + open) + close;
+            }
+            return function (columns, values) {
+
+                for (var jj = 0; jj < values.length; jj++) {
+                    for (var mm = 0; mm < values[jj].length; mm++) {
+                        if (values[jj][mm] !== '' && !isNaN(values[jj][mm])) {
+                            values[jj][mm] = Number(values[jj][mm]).toLocaleString() +
+                                (columns[mm].indexOf('(%)') > -1 ? '%' : '');
+                        }
+                        console.log(mm, values[jj][mm])
+                    }
+                }
+
+                var tbl = document.createElement('table');
+                var html = '<thead>' + valconcat(columns, 'th') + '</thead>';
+                var rows = values.map(function (v) { return valconcat(v, 'td'); });
+                html += '<tbody>' + valconcat(rows, 'tr') + '</tbody>';
+                tbl.innerHTML = html;
+                return tbl;
+            }
+        }();
+
+        function error(e) {
+            console.log(e);
+            errorDiv.style.height = '2em';
+            errorDiv.textContent = e.message;
+            output.textContent = '';
+        }
+
+        // Execute the commands when the button is clicked
+        function execEditorContents() {
+            noerror()
+            execute(editor.value);
+        }
+        /*
+                "v21" : ["Capital emitido"],
+                "v22" : ["Prima de emisión"],
+                "v23" : ["Otras reservas"],
+                "v24" : ["Ganancias acumuladas"],
+                "v25" : ["Resultado del Ejercicio"],
+                "v26" : ["CALCULADA"],
+                "tot_PATRIMONIO" : ["Patrimonio total"],
+                "tot_PASIVO_PATRIMONIO" : ["Total de patrimonio y pasivos"]
+        */
+        // Execute the commands when the button is clicked
+        function execBuscarNit() {
+            noerror()
+            execute(`
+SELECT 
+   caratula.nit as 'NIT:', 
+   caratula.razon as 'EMPRESA:', 
+   caratula.ciiu as 'CÓDIGO CIIU:', 
+   ciiu.descripcion as 'SECTOR:', 
+   caratula.pyme as 'PYME:', 
+   caratula.ind as 'ENTRADA:',
+   ESF.periodo as 'PERÍODO:', 
+   ESF.fecha as 'FECHA:', 
+   ESF.unidades as 'UNIDADES:', 
+   '' as 'ACTIVOS CORRIENTES', 
+   ESF.v1 as '1.- Efectivo y equivalentes al efectivo:', 
+   ESF.v2 as '2.- Otros Activos Corrientes:', 
+   ESF.v3 as '3.- Cuentas por cobrar comerciales y otras (neto):', 
+   ESF.v4 as '4.- Inventarios (neto):', 
+   ESF.tot_AC_CO as 'TOTAL ACTIVOS CORRIENTES', 
+   '' as 'ACTIVOS NO CORRIENTES', 
+   ESF.v5 as '5.- Propiedad, planta y equipo (neto):', 
+   ESF.v6 as '6.- Cuentas por cobrar comerciales y otras (neto):',
+   ESF.v7 as '7.- Propiedades de Inversión:', 
+   ESF.v8 as '8.- Otros Activos:', 
+   ESF.v9 as '9.- Activos por impuestos diferidos:', 
+   ESF.tot_AC_NCO as 'TOTAL ACTIVOS NO CORRIENTES', 
+   ESF.tot_ACTIVOS as 'TOTAL ACTIVOS', 
+   '' as 'PASIVOS CORRIENTES', 
+   ESF.v10 as '10.- Obligaciones financieras:', 
+   ESF.v11 as '11.- Cuentas por pagar comerciales:', 
+   ESF.v12 as '12.- Otros pasivos corrientes:', 
+   ESF.v13 as '13.- Beneficios a empleados:', 
+   ESF.v14 as '14.- Impuestos por pagar:', 
+   ESF.v15 as '15.- Otros pasivos no financieros:', 
+   ESF.tot_PS_CO as 'TOTAL PASIVOS CORRIENTES', 
+   '' as 'PASIVOS NO CORRIENTES', 
+   ESF.v16 as '16.- Obligaciones financieras:', 
+   ESF.v17 as '17.- Comerciales y otras cuentas por pagar:', 
+   ESF.v18 as '18.- Pasivo por impuestos diferidos:', 
+   ESF.v19 as '19.- Impuestos por pagar:', 
+   ESF.v20 as '20.- Otros pasivos no corrientes:', 
+   ESF.tot_PS_NCO as 'TOTAL PASIVOS NO CORRIENTES', 
+   ESF.tot_PASIVOS as 'TOTAL PASIVOS', 
+   '' as 'PATRIMONIO', 
+   ESF.v21 as '21.- Capital pagado:', 
+   ESF.v22 as '22.- Prima en colocación de acciones:', 
+   ESF.v23 as '23.- Reservas:', 
+   ESF.v24 as '24.- Resultados acumulados:', 
+   ESF.v25 as '25.- Resultado del ejercicio:', 
+   ESF.v26 as '26.- Otro resultado integral:', 
+   ESF.tot_PATRIMONIO as 'TOTAL PATRIMONIO', 
+   ESF.tot_PASIVO_PATRIMONIO as 'TOTAL PASIVO + PATRIMONIO', 
+   '' as 'PRINCIPALES CUENTAS DE PÉRDIDAS Y GANANCIAS', 
+   ERI.v27 as '27.- Ingreso de actividades ordinarias:', 
+   ERI.v28 as '28.- Costo de ventas:', 
+   ERI.tot_RES_BRUTO as 'RESULTADO BRUTO:', 
+   ERI.v29 as '29.- Gastos de administración:', 
+   ERI.v30 as '30.- Gastos de ventas:', 
+   ERI.tot_RES_OPERACIONAL as 'RESULTADO OPERACIONAL:', 
+   ERI.v31 as '31.- Gastos financieros:', 
+   ERI.v32 as '32.- Otros gastos:', 
+   ERI.v33 as '33.- Ingresos financieros:', 
+   ERI.v34 as '34.- Otros ingresos:', 
+   ERI.tot_RES_ANTES_IMP as 'RESULTADO ANTES DE IMPUESTOS:', 
+   ERI.v35 as '35.- Gasto (ingreso) por impuestos (neto):', 
+   ERI.tot_RES_OPERACIONAL as 'RESULTADO DEL EJERCICIO:', 
+   '' as 'INDICADORES FINANCIEROS', 
+   indfin.solvencia as 'Solvencia',
+   indfin.razon_cte || ' Pts: <b>' || (puntos.pts_razon_cte * 100) || '</b>' as 'Razón Corriente',
+   indfin.prueba_acida as 'Prueba ácida',
+   indfin.capital_trabajo as 'Capital de Trabajo',
+   indfin.ROE as 'ROE',
+   indfin.fin_ventas as 'Gastos financieros / ventas  (%)',
+   indfin.gearing as 'Gearing  (%)',
+   indfin.ap_act_ing as 'Apalancamiento Activos Fijos / Ingresos  (%)',
+   indfin.ap_act_tot as 'Apalancamiento activos fijos / Activo Total  (%)',
+   indfin.end_fin as 'Endeudamiento Financiero (%)',
+   indfin.end_ventas as 'Endeudamiento a ventas (%)',
+   indfin.end_total || ' Pts: <b>' || (puntos.pts_end_total * 100) || '</b>' as 'Endeudamiento total (%)',
+   indfin.conc_CP as 'Concentración en corto plazo (%)',
+   indfin.deuda_CP_ventas as 'Relación deuda corto plazo / Ventas (%)',
+   indfin.gas_fin_uti_op as 'Gastos financieros / Utilidad Operacional (%)',
+   indfin.ap_bancario as 'Apalancamiento bancario (%)',
+   indfin.margen_op as 'Margen operacional',
+   indfin.margen_neto as 'Margen neto',
+   indfin.rot_inv as 'Rotación inventario',
+   indfin.rot_cart as 'Rotación de cartera',
+   indfin.ciclo_op || ' Pts: ' || (puntos.pts_ciclo_op * 100) as 'Ciclo operacional',
+   indfin.pago_prov as 'Periodo pago proveedores',
+   indfin.renta_op || ' Pts: <b>' || (puntos.pts_renta_op * 100) || '</b>' as 'Rentabilidad operacional (%)',
+   scoring.scoring * 100 as 'PUNTAJE:',
+   ciiu.riesgo as 'PUNTAJE SECTOR:', 
+   scoring.scoring * ciiu.riesgo / 10 as 'PUNTAJE (Según SECTOR):', 
+   scoring.cupo as 'CUPO APROBADO:'
+FROM
+    caratula, 
+    ciiu,
+    ESF, ERI, indfin,
+	scoring,
+    puntos
+WHERE caratula.nit = '${nit.value}' AND
+      ciiu.codigo = caratula.ciiu AND
+      ESF.nit = caratula.nit AND ESF.periodo = scoring.periodo AND
+      ERI.nit = caratula.nit AND ERI.periodo = scoring.periodo AND
+      indfin.nit = caratula.nit AND indfin.periodo = scoring.periodo AND
+	  scoring.nit = caratula.nit AND
+      puntos.nit = caratula.nit AND puntos.periodo = scoring.periodo
+ORDER BY ESF.periodo desc
+`);
+        }
+
+        // Execute the commands when the button is clicked
+        function execTranspose() {
+            transposeTable(document.querySelector("table"));
+        }
+
+        function noerror() {
+            errorDiv.style.height = '0';
+            errorDiv.textContent = '';
+        }
+
+        // Performance measurement functions
+        var tictime;
+        if (!window.performance || !performance.now) { window.performance = { now: Date.now } }
+        function tic() { tictime = performance.now() }
+        function toc(msg) {
+            var dt = performance.now() - tictime;
+            console.log((msg || 'toc') + ": " + dt + "ms");
+        }
+
+        // Load a db from a file
+        function handleFiles() {
+            var f = document.getElementById('dbfile').files[0];
+            var r = new FileReader();
+            r.onload = function () {
+                worker.onmessage = function () {
+                    toc("Loading database from file");
+                    // Show the schema of the loaded database
+                    execute("SELECT `name`, `sql`\n  FROM `sqlite_master`\n  WHERE type='table';");
+                };
+                tic();
+                try {
+                    worker.postMessage({ action: 'open', buffer: r.result }, [r.result]);
+                }
+                catch (exception) {
+                    worker.postMessage({ action: 'open', buffer: r.result });
+                }
+            }
+            r.readAsArrayBuffer(f);
+        }
+
+        // Save the db to a file
+        function savedb() {
+            worker.onmessage = function (event) {
+                toc("Exporting the database");
+                var arraybuff = event.data.buffer;
+                var blob = new Blob([arraybuff]);
+                var a = document.createElement("a");
+                document.body.appendChild(a);
+                a.href = window.URL.createObjectURL(blob);
+                a.download = "sql.db";
+                a.onclick = function () {
+                    setTimeout(function () {
+                        window.URL.revokeObjectURL(a.href);
+                    }, 1500);
+                };
+                a.click();
+            };
+            tic();
+            worker.postMessage({ action: 'export' });
+        }
+
+        const transposeTable = (tbody, newContainerType = "tbody") => {
+            const rows = Array.from(tbody.querySelectorAll("tr"))
+            const newTbody = document.createElement(newContainerType)
+
+            for (let rowIdx = 0; rowIdx < rows.length; rowIdx++) {
+                const row = rows[rowIdx]
+                const cells = Array.from(row.querySelectorAll("td, th"))
+
+                for (let cellIdx = 0; cellIdx < cells.length; cellIdx++) {
+                    const cell = cells[cellIdx]
+                    const newRow = newTbody.children[cellIdx] || document.createElement("tr")
+                    if (!newTbody.children[cellIdx]) {
+                        newTbody.appendChild(newRow)
+                    }
+                    newRow.appendChild(cell.cloneNode(true))
+                }
+            }
+
+            // Do live DOM manipulations only once for performance
+            tbody.parentElement.appendChild(newTbody)
+            tbody.parentElement.removeChild(tbody)
+        }
+
+        // Events
+        inputElement.addEventListener("change", handleFiles, false);
+        executeBtn.addEventListener("click", execEditorContents, true);
+        buscarBtn.addEventListener("click", execBuscarNit, true);
+        transposeBtn.addEventListener("click", execTranspose, true);
+
+    </script>
+
+</body>
+
+</html>

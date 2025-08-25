@@ -1,0 +1,92 @@
+no existe - 80001234 -
+0 - 800014463 - SUMPROCOL SAS EN REORGANIZACION
+1 - 800054106 - DROGAS PHARMABARATAS S A  
+2 - 800002818 - CARBONES DE LOS ANDES SA EN REORGANIZACION
+3 - 800002981 - MELTEC SA
+4 - 800007636 - PIZU SAS *
+5 - 800000268 - INVERSIONES SCHLEGELDONADO S.A.S.
+6 - 800000393 - confeplasticos sas
+7 - 800000090 - INGENIEROS SERVICIOS CONSTRUCTIVOS SA
+8 - 800000276 - AVICOLA EL MADROÑO SA *
+9 - 800000457 - ACOMEDIOS PUBLICIDAD Y MERCADEO LTDA
+10 - 800000154 - CONSTRUCCIONES INDUSTRIALES Y SERVICIOS SUPER LTDA
+11 - 800001020 - DISTRIBUIDORA DE DROGAS LA REBAJA PRINCIPAL S A
+
+<iframe src="https://i.simmer.io/@jumanja/3d-platform-game" style="width:960px;height:600px"></iframe>
+
+This is a Unity simple game (prototype) I Made with one of the courses from Zenva website, and uploaded in simmer.io (for free). It allows Arrow keys and space bar to jump. Code is here: https://github.com/jumanja/3d_platform_game  (don't worry, no audio and just 2 levels)
+
+11 - 800000983 
+
+9.76875943679474
+9.84770382956908
+9.89848836072074
+9.97676100034434
+
+30
+30
+30
+30
+
+select count(1) from scoring
+30976
+
+select  nit, count(1) from scoring group by nit
+25666
+
+
+
+Hola buenas.. don Ciro:
+
+Paso 1: Descargar ya sea el archivo .exe para Windows o el archivo .dmg para Mac de este enlace:
+https://drive.google.com/drive/folders/1xuYEgTslzWpM9xeR4-BaoCAIoPsN7lDv?usp=sharing
+
+Paso 2: Ejecutarlo y seguir los pasos de instalación.
+
+Ahí ya debería quedar instalado.
+
+Ahora Descargar la base de datos :
+
+Paso 1: Descargar el archivo super.db de este enlace:
+https://drive.google.com/drive/folders/18s_S5IOzxuq2F5OayVRwldQsrV1Pf7h5?usp=sharing
+
+Guardarlo en una carpeta para buscarlo después.
+
+Para ejecutar el programa local Analista:
+
+Paso 1: Buscar en la carpeta de aplicaciones o Archivo de Programas uno con el logo de MyBill (o por el nombre, se llama mb-analista) y ejecutarlo.
+
+Paso 2: Cuando se abra la ventana hacer click en Choose File o Abir archivo al lado de donde dice: Abrir Bae de Datos:
+
+Paso 3: Elegir de su computador en la carpeta en donde se descargó, el archivo super.db
+
+Paso 4: Deberá salir en la pantalla una lista de comandos, dos columnas:
+name	sql
+ciiu	CREATE TABLE ...
+
+.. eso quiere decir que se abrió la base de datos OK.
+
+Paso 5: Escribir o pegar un nit  al lado de donde dice Ingrese Nit:, y luego click en el botón Buscar.
+
+En pantalla aparecerá la hoja de analista con los años disponibles, o aparecerá sin información en caso de que el nit no exista en la base de datos super.db
+
+Maximizar / cambiar el tamaño de la ventana a su gusto.
+
+Para buscar otro nit es cosa de volver a escribir/pegar y hacer click en buscar.
+
+Si se cierra el programa, o cada vez que se cierre, hay que elegir el archivo super.db al principio para que se pueda hacer la búsqueda, así que debe saberse y recordarse la carpeta en donde quedó guardado el super.db
+
+Algunos ejemplos de nits:
+
+0 - 800014463 - SUMPROCOL SAS EN REORGANIZACION
+1 - 800054106 - DROGAS PHARMABARATAS S A  
+2 - 800002818 - CARBONES DE LOS ANDES SA EN REORGANIZACION
+3 - 800002981 - MELTEC SA
+4 - 800007636 - PIZU SAS *
+5 - 800000268 - INVERSIONES SCHLEGELDONADO S.A.S.
+6 - 800000393 - confeplasticos sas
+7 - 800000090 - INGENIEROS SERVICIOS CONSTRUCTIVOS SA
+8 - 800000276 - AVICOLA EL MADROÑO SA *
+9 - 800000457 - ACOMEDIOS PUBLICIDAD Y MERCADEO LTDA
+10 - 800000154 - CONSTRUCCIONES INDUSTRIALES Y SERVICIOS SUPER LTDA
+11 - 800001020 - DISTRIBUIDORA DE DROGAS LA REBAJA PRINCIPAL S A
